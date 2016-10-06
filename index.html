@@ -50,9 +50,9 @@
   <section id="home" class="module-image js-height-full">
 
     <div class="intro">
-      <div class="hello">Hello, my name is Jones Rajan and I am a</div>
-      <h1>Front-End Developer</h1>
-      <div class="who-creates">creating modern and responsive design for Web and Mobile</div>
+      <div class="hello">Hello, Iam a Front-End Developer and my name is</div>
+      <h1>Jones Rajan</h1>
+      <div class="who-creates">I love to create beautifully coded interfaces for Web and Mobile</div>
     </div>
 
     <div class="mouse-icon">
@@ -84,8 +84,8 @@
         <div class="collapse navbar-collapse" id="custom-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#home">home</a></li>
-            <li><a href="#portfolio">Works</a></li>
-            <li><a href="#services">Service</a></li>
+            <!--<li><a href="#portfolio">Works</a></li>
+            <li><a href="#services">Service</a></li>-->
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -101,7 +101,7 @@
 
   <!-- Portfolio start -->
 
-  <section id="portfolio" class="module paddingb-none">
+  <section id="portfolio" class="module paddingb-none" style="display: none">
     <div class="container">
       <div class="row">
 
@@ -337,7 +337,7 @@
             <div class="module-header module-header-left wow fadeInUp">
               <h2 class="module-title">About me</h2>
               <div class="module-subtitle">
-                He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.
+                <p>I am currently working on latest Web techologies and leveraging the power of it.</p>
               </div>
               <div class="module-line"></div>
             </div>
@@ -352,12 +352,13 @@
 
             <div class="iconboxleft wow fadeInUp">
               <div class="iconboxleft-icon">
-                <span class="icon-camera"></span>
+                <!--<span class="icon-camera"></span>-->
               </div>
               <div class="iconboxleft-text">
-                <h3 class="iconboxleft-title">Photographer</h3>
+                <h3 class="iconboxleft-title">Coder</h3>
                 <div class="iconboxleft-desc">
-                  Thus, then, one of our own noble stamp, even a whaleman, is the tutelary guardian of England.
+                    Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+                    <p>-Rick Osborne</p>
                 </div>
               </div>
             </div>
@@ -368,12 +369,13 @@
 
             <div class="iconboxleft wow fadeInUp" data-wow-delay=".2s">
               <div class="iconboxleft-icon">
-                <span class="icon-earphones"></span>
+                <!-- <span class="icon-earphones"></span> -->
               </div>
               <div class="iconboxleft-text">
-                <h3 class="iconboxleft-title">Music</h3>
+                <h3 class="iconboxleft-title">Designer</h3>
                 <div class="iconboxleft-desc">
-                  Thus, then, one of our own noble stamp, even a whaleman, is the tutelary guardian of England.
+                    Focus on the user and all else will follow
+                    <p>-Google</p>
                 </div>
               </div>
             </div>
@@ -382,7 +384,7 @@
 
         </div><!-- .row -->
 
-        <div class="row">
+        <!-- <div class="row">
 
           <div class="col-sm-6">
 
@@ -427,7 +429,7 @@
 
   <!-- Contact start -->
 
-  <section id="contact" class="module">
+  <section id="contact">
     <section class="callout">
     <div class="container">
 
@@ -436,7 +438,7 @@
         <div class="col-md-8 col-lg-6 col-lg-offset-2">
           <h2>ARE YOU READY TO START?</h2>
           <div class="callout-decription">
-            I'm currently available for freelance work.
+            Let's build amazing experiences.
           </div>
         </div>
 
@@ -471,12 +473,12 @@
         <div class="col-sm-12">
 
           <ul class="social-links">
-            <li><a href="#" class="wow fadeInUp"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="#" class="wow fadeInUp" data-wow-delay=".3s"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a></li>
-            <li><a href="#" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://www.facebook.com/jonesvrajan" target="_blank" class="wow fadeInUp"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/jonesvrajan" target="_blank" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://plus.google.com/u/0/110025962607829690471" target="_blank" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="https://in.linkedin.com/in/jonesrajan" target="_blank" class="wow fadeInUp" data-wow-delay=".3s"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/jonesvrajan" target="_blank" class="wow fadeInUp" data-wow-delay=".3s"><i class="fa fa-github"></i></a></li>
+            <li><a href="mailto:jonesvrajan@gmail.com" target="_blank" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
           </ul>
 
           <p class="copyright">
