@@ -513,7 +513,7 @@
   <script src="assets/js/wow.min.js"></script>
   <!-- Google Maps -->
 
-  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyB6pVSBcRPEaGhsO6TnX4UpVY9PkxXVbfg"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6pVSBcRPEaGhsO6TnX4UpVY9PkxXVbfg"></script>
 
   <script src="assets/js/gmaps.js"></script>
   <!-- Custom scripts -->
