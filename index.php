@@ -556,7 +556,7 @@ Jones is a responsible and a smart person with lots of knowledge in his field. I
 </div>
 
 <!-- ==== CONTACT ==== -->
-<div id="contact" name="contact">
+<div id="contact" name="contact" style="display: none">
   <div class="container">
     <div class="row">
       <h2 class="centered">CONTACT</h2>
