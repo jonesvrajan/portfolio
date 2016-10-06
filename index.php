@@ -50,7 +50,7 @@
   <section id="home" class="module-image js-height-full">
 
     <div class="intro">
-      <div class="hello">Hello, Iam a Front-End Developer and my name is</div>
+      <div class="hello">Hi, Iam a Front-End Developer</div>
       <h1>Jones Rajan</h1>
       <div class="who-creates">I love to create beautifully coded interfaces for Web and Mobile</div>
     </div>
