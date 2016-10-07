@@ -10,30 +10,8 @@
 
   <!-- CSS -->
   <!-- Bootstrap core CSS -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="dist/css/bundle.min.css" rel="stylesheet" media="screen">
 
-  <!-- Font Awesome CSS -->
-  <link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
-
-  <!-- Elegant icons CSS -->
-  <link href="assets/css/simple-line-icons.css" rel="stylesheet" media="screen">
-
-  <!--[if lte IE 7]>
-    <script src="assets/js/icons-lte-ie7.js"></script>
-  <![endif]-->
-
-  <!-- Magnific-popup lightbox -->
-  <link href="assets/css/magnific-popup.css" rel="stylesheet">
-
-  <!-- Owl Carousel -->
-  <link href="assets/css/owl.theme.css" rel="stylesheet">
-  <link href="assets/css/owl.carousel.css" rel="stylesheet">
-
-  <!-- Animate css -->
-  <link href="assets/css/animate.css" rel="stylesheet">
-
-  <!-- Custom styles CSS -->
-  <link href="assets/css/style.css" rel="stylesheet" media="screen">
 </head>
 <body>
 
@@ -500,27 +478,8 @@
   </div>
 
   <!-- Javascript files -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6pVSBcRPEaGhsO6TnX4UpVY9PkxXVbfg"></script>
 
-  <script src="assets/js/jquery-1.11.1.min.js"></script>
-  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="assets/js/jquery.parallax-1.1.3.js"></script>
-  <script src="assets/js/imagesloaded.pkgd.js"></script>
-  <script src="assets/js/jquery.shuffle.min.js"></script>
-  <script src="assets/js/twitterFetcher.js"></script>
-  <script src="assets/js/owl.carousel.min.js"></script>
-  <script src="assets/js/jquery.fitvids.js"></script>
-  <script src="assets/js/jquery.sticky.js"></script>
-  <script src="assets/js/smoothscroll.js"></script>
-  <script src="assets/js/wow.min.js"></script>
-  <!-- Google Maps -->
-
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6pVSBcRPEaGhsO6TnX4UpVY9PkxXVbfg"></script>
-
-  <script src="assets/js/gmaps.js"></script>
-  <!-- Custom scripts -->
-  <script src="assets/js/custom.js"></script>
-  <script src="assets/js/custom-shuffle-init.js"></script>
-
+  <script src="dist/js/min/all.js"></script>
 </body>
 </html>
