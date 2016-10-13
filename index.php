@@ -445,7 +445,7 @@
 
         <div class="col-sm-6 col-sm-offset-3">
 
-          <form id="contact-form" role="form" method="POST" action="http://formspree.io/jonesvrajan@gmail.com">
+          <form id="contact-form" role="form" method="POST" action="https://formspree.io/jonesvrajan@gmail.com">
             <div class="ajax-hidden">
               <div class="form-group wow fadeInUp">
                 <label class="sr-only" for="c_name">Name</label>
