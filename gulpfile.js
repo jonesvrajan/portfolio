@@ -73,7 +73,6 @@ gulp.task('compress', function (cb) {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(['production-index.html'] , ['rename-index']);
   gulp.watch(['index.html'] , ['html']);
   gulp.watch(['index.html'] , ['rename']);
   gulp.watch(['./assets/css/*.css'] , ['concat-css']);

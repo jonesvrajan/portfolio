@@ -62,8 +62,8 @@
         <div class="collapse navbar-collapse" id="custom-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#home">home</a></li>
-            <!--<li><a href="#portfolio">Works</a></li>
-            <li><a href="#services">Service</a></li>-->
+            <!-- <li><a href="#portfolio">Works</a></li>
+            <li><a href="#services">Service</a></li> -->
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -79,7 +79,7 @@
 
   <!-- Portfolio start -->
 
-  <section id="portfolio" class="module paddingb-none" style="display: none">
+  <section id="portfolio" class="module paddingb-none" style="display: none;">
     <div class="container">
       <div class="row">
 
@@ -204,10 +204,28 @@
   </section>
 
   <!-- Portfolio end -->
+  <section class="callout" style="display: none;">
+    <div class="container">
 
+      <div class="row">
+
+        <div class="col-md-8 col-lg-6 col-lg-offset-2">
+          <h2>ARE YOU READY TO START?</h2>
+          <div class="callout-decription">
+            Let's build amazing experiences.
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-2 callout-btn">
+          <a href="#contact" class="btn btn-lg btn-block btn-custom-1">Contact me</a>
+        </div>
+
+      </div><!-- .row -->
+    </div><!-- .container -->
+  </section>
   <!-- Services start -->
 
-  <section id="services" class="module module-gray" style="display: none">
+  <section id="services" class="module module-gray" style="display: none;">
     <div class="container">
       <div class="row">
 
@@ -336,7 +354,7 @@
                 <h3 class="iconboxleft-title">Coder</h3>
                 <div class="iconboxleft-desc">
                     Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
-                    <p>-Rick Osborne</p>
+                    <p>- Rick Osborne</p>
                 </div>
               </div>
             </div>
@@ -353,7 +371,7 @@
                 <h3 class="iconboxleft-title">Designer</h3>
                 <div class="iconboxleft-desc">
                     Focus on the user and all else will follow
-                    <p>-Google</p>
+                    <p>- Google</p>
                 </div>
               </div>
             </div>
@@ -407,26 +425,52 @@
 
   <!-- Contact start -->
 
-  <section id="contact">
-    <section class="callout">
+  <section id="contact" class="module">
     <div class="container">
+      <div class="row">
+
+        <div class="col-sm-6 col-sm-offset-3">
+
+          <div class="module-header">
+            <h2 class="module-title">Contact</h2>
+            <div class="module-line"></div>
+            
+          </div>
+
+        </div>
+
+      </div><!-- .row -->
 
       <div class="row">
 
-        <div class="col-md-8 col-lg-6 col-lg-offset-2">
-          <h2>ARE YOU READY TO START?</h2>
-          <div class="callout-decription">
-            Let's build amazing experiences.
-          </div>
-        </div>
+        <div class="col-sm-6 col-sm-offset-3">
 
-        <div class="col-md-4 col-lg-2 callout-btn">
-          <a href="mailto:jonesvrajan@gmail.com" class="btn btn-lg btn-block btn-custom-1">Contact me</a>
+          <form id="contact-form" role="form" method="POST" action="http://formspree.io/jonesvrajan@gmail.com">
+            <div class="ajax-hidden">
+              <div class="form-group wow fadeInUp">
+                <label class="sr-only" for="c_name">Name</label>
+                <input type="text" id="c_name" class="form-control" name="c_name" placeholder="Name">
+              </div>
+
+              <div class="form-group wow fadeInUp" data-wow-delay=".1s">
+                <label class="sr-only" for="c_email">Email address</label>
+                <input type="email" id="c_email" class="form-control" name="c_email" placeholder="E-mail">
+              </div>
+
+              <div class="form-group wow fadeInUp" data-wow-delay=".2s">
+                <textarea class="form-control" id="c_message" name="c_message" rows="7" placeholder="Your message"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-block btn-custom-2 wow fadeInUp" data-wow-delay=".3s">Send it
+              </button>
+            </div>
+            <div class="ajax-response"></div>
+          </form>
+
         </div>
 
       </div><!-- .row -->
     </div><!-- .container -->
-  </section>
   </section>
 
   <!-- Contact end -->
