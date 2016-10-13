@@ -7,7 +7,7 @@
   <meta name="author" content="">
 
   <title>Jones Rajan's Portfolio</title>
-
+  <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
   <!-- CSS -->
   <!-- Bootstrap core CSS -->
   <link href="dist/css/bundle.min.css" rel="stylesheet" media="screen">
