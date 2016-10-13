@@ -425,7 +425,7 @@
 
   <!-- Contact start -->
 
-  <section id="contact" class="module">
+  <section id="contact" class="module" style="display: none;">
     <div class="container">
       <div class="row">
 
