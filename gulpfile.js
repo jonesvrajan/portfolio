@@ -72,16 +72,16 @@ gulp.task('compress', function (cb) {
   );
 });
 
-gulp.task('minify', function() {
+/*gulp.task('minify', function() {
   return gulp.src('index.php')
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('./'));
-});
+});*/
 
 gulp.task('watch', function () {
   gulp.watch(['index.html'] , ['html']);
   gulp.watch(['index.html'] , ['rename']);
-  gulp.watch(['index.html'] , ['minify']);
+  //gulp.watch(['index.html'] , ['minify']);
   gulp.watch(['./assets/css/*.css'] , ['concat-css']);
   gulp.watch(['./dist/css/bundle.css'], ['css-min']);
 
