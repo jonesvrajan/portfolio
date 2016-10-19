@@ -1,0 +1,116 @@
+/* sgcet */
+
+@media only screen and (min-width: 768px) {
+
+    .review-page .col-3 {
+        float: left;
+    }
+
+    .review-page .col-9 {
+        float: right;
+    }
+
+    .google-rating h2 {
+    	font-size: 24px;
+    }
+
+    .review-page .customer-review .col-9 {
+    	float: left;
+    }
+
+    .review-page .customer-review .col-3 {
+    	float: right;
+    }
+
+    .review-page .feedback-form .col-9 {
+    	float: left;
+    }
+
+    .review-page .feedback-form .col-3 {
+    	float: right;
+    }
+
+    .customer-review .rating {
+    	float: left;
+    	position: relative;
+    	top: -3px;
+	}
+
+	.commitment-wrap figure img { 
+		width: 100%;
+	}
+
+	.shop-now-3 {
+		text-align: right;
+	}
+
+    .feedback-form h2 {
+        font-size: 36px;
+    }
+
+    .feedback-form .input-txt {
+        width: 50%;
+    }
+
+    .contact-msg h2 {
+        color: #2f8dc8;
+        font-size: 18px;
+        margin: 0 0 10px;
+        padding: 0;
+        font-weight: normal;
+    }
+
+    .feedback-form .col-9 {
+        margin: 0;
+    }
+
+    .commitment-wrap figure {
+        margin: 0;
+    }
+
+    .commitment-wrap {
+        text-align: left;
+    }
+
+    .contact-msg {
+        text-align: left;
+    }
+
+    /*Contact Page */
+
+    .contact-page .feedback-form .col-3 {
+        float: right;
+    }
+
+    .feedback-form .col-9 {
+        float: left;
+    }
+
+    .contact-page .feedback-form textarea {
+        width: 72%;
+    }
+
+    .contact-page .feedback-form .submit {
+        background: url(../img/submit-email.png) no-repeat top right;
+        margin: 0;
+    }
+
+    .contact-info {
+        margin: 0;
+    }
+
+    .contact-page .feedback-form label {
+        float: left;
+        width: 28%;
+    }
+
+@media only screen and (min-width: 1000px) { 
+
+    .contact-msg {
+        position: absolute;
+        top: 76px;
+        width: 28%;
+        right: 345px;
+    }
+
+}

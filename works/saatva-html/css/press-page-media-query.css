@@ -1,0 +1,23 @@
+/* sgcet */
+
+@media only screen and (min-width: 768px) {
+
+    .press-page .head-group p {
+        padding: 0;
+    }
+
+    .press-page .col-9 figure {
+        text-align: left;
+    }
+
+    .press-page .col-3 figure {
+        text-align: right;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) { 
+
+
+
+}

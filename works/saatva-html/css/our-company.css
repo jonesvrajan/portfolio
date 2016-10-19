@@ -1,0 +1,22 @@
+/* sgcet */
+
+.our-company h3 {
+    color: #2f8dc8;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
+.our-company .global-width {
+    margin: 0 auto 20px;
+}
+
+.our-company .main-grid{
+    margin: 0 auto;
+    padding: 0 20px 20px;
+}
+
+.btn-section .col-3 {
+    text-align: center;
+    margin: 0 0 10px;
+}

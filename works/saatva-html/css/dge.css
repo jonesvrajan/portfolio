@@ -1,0 +1,35 @@
+/* sgcet */
+
+.dge-page .page-content .dr-img {
+    float: left;
+    margin: 0 20px 5px 0;
+}
+
+.dge-page .page-content .global-width {
+    max-width: 700px;
+}
+
+.dge-page .page-content p {
+    font-size: 14px;
+    color: #acacac;
+    text-align: justify;
+}
+
+.dge-page .page-content label {
+    color: #2f8dc8;
+    font-size: 14px;
+}
+
+.dge-page .page-content .health-bridge {
+    margin: 0 0 20px;
+}
+
+.dge-page .page-content .health-bridge h2 {
+    color: #2f8dc8;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.dge-page .page-content .health-bridge .col-3 figure {
+    text-align: center;
+}

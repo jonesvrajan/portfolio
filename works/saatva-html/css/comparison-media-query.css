@@ -1,0 +1,43 @@
+/* sgcet */
+
+@media only screen and (min-width: 768px) {
+	.comparison-table h3 {
+		font-size: 24px;
+		margin: 0;
+	}
+
+	.comparison-content {
+		text-align: left;
+	}
+
+	.include-list li {
+		background: url(../img/icon-list-cmp.png) no-repeat left center;
+		padding-left: 30px;
+	}
+
+	.include-list-wrap {
+		margin: 0;
+	}
+
+	.btn-wrap-cmp {
+		text-align: right;
+	}
+}
+
+@media only screen and (max-width: 400px) { 
+
+	.comparison-mobile li p {
+		font-size: 11px;
+	}
+
+	.comparison-mobile li {
+		padding: 5px;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	.doing-part {
+		display: none;
+	}
+}

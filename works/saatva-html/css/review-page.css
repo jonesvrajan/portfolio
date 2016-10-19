@@ -1,0 +1,571 @@
+/* sgcet */
+
+.google-rating {
+    text-align: center;
+}
+
+.google-rating h2 {
+    color: #82a536;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0 0 5px;
+    padding: 0;
+    font-size: 20px;
+}
+
+.google-rating {
+    padding: 30px 0;
+    margin: 0 auto 20px
+}
+
+.google-rating p {
+    font-size: 14px;
+    color: #454545;
+    margin: 0;
+    padding: 0;
+}
+
+.review-head {
+    background: #2f8dc8;
+    color: #FFF;
+    padding: 15px 60px;
+    position: relative;
+    margin: 0 0 20px;
+}
+
+.commitment-wrap {
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.review-head .review-nav {
+    position: absolute;
+    right: 60px;
+    top: 15px;
+}
+
+.review-head h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+}
+
+.review-head .review-nav li {
+    float: left;
+}
+
+.review-head .review-nav li a {
+    color: #FFF;
+    font-size: 14px;
+    text-transform: capitalize;
+    background: url(../img/review-pipe.png) no-repeat left center;
+    padding: 0 10px;
+    display: block;
+    text-decoration: underline;
+}
+
+.review-head .review-nav li a:hover {
+    color: #6dcff6;
+}
+
+.review-head .review-nav li:first-child a {
+    background: none;
+}
+
+.commitment-wrap h2 {
+    color: #f19f50;
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.commitment-wrap p {    
+    color: #707070;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.commitment-wrap p span {
+    display: block;
+}
+
+.review-percentage h3 {
+    color: #454545;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.review-summary-list li {
+    float: left;
+    color: #f19f50;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+.customer-review .rating {
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+
+.commitment-wrap figure {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.review-percentage {
+    margin: 0 0 20px;
+}
+
+.review-desc {
+    margin: 0 0 30px;
+}
+
+.review-desc h3 {
+    color: #2f8dc8;
+    font-size: 14px;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.review-desc h4 {
+    color: #707070;
+    font-size: 14px;
+    margin: 0 0 5px;
+    font-weight: normal;
+}
+
+.review-desc p {
+    color: #acacac;
+    font-size: 14px;
+    margin: 0 0 20px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.review-desc h4.helpful {
+    color: #454545;
+}
+
+.review-btn li {
+    float: left;
+}
+
+.review-btn li a {
+    display: block;
+    background: #2f8dc8;
+    color: #FFF;
+    margin: 0 10px 0 0;
+    padding: 5px 10px
+}
+
+.review-btn li a:hover {
+    background: #287aad;
+}
+
+.paginator {
+    float: right;
+    margin: 0 0 30px
+}
+
+.paginator li {
+    float: left;
+}
+
+.paginator li a {
+    display: block;
+    background: #2f8dc8;
+    color: #FFF;
+    margin: 0 2px 0 0;
+    padding: 5px 20px
+}
+
+.paginator li a:hover {
+    background: #287aad;
+}
+
+.shop-now-3 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.read-more-reviews {
+    border: 1px solid #d7d7d7;
+    margin: 0 0 20px;
+}
+
+.read-more-reviews h3 {
+    background: #f4f0eb;
+    color: #454545;
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.read-more-reviews li a {
+    background: url(../img/icon-go.png) no-repeat right center;
+    margin: 0 20px;
+    display: block;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 20px 10px;
+}
+
+.feedback-form {
+    background: #f4f0eb;  
+    padding: 50px 30px;  
+    margin: 0 auto 20px;
+    position: relative;
+}
+
+.feedback-form .rating {
+    background: none;
+    padding: 0;
+    margin: 0 0 10px;
+}
+
+.feedback-form label {
+    display: block;
+    font-size: 14px;
+    color: #acacac;
+}
+
+.feedback-form h2 {
+    color: #f19f50;
+    font-size: 26px;
+    margin: 0 0 20px;
+    padding: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.feedback-form-ul li label, .feedback-form-ul li input {
+    display: block;
+}
+
+.feedback-form h3 {
+    color: #2f8dc8;
+    font-size: 18px;
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.feedback-form .input-txt, .feedback-form textarea {
+    background: #FFF;
+    border: 1px solid #d7d7d7;
+}
+
+.feedback-form .input-txt {
+    width: 100%;
+    height: 35px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 5px;
+    padding: 10px 5px;
+    font-size: 14px;
+    color: #acacac;
+}
+
+.feedback-form textarea {
+    width: 100%;
+    height: 257px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    font-size: 14px;
+    color: #acacac;
+}
+
+.feedback-form .submit {
+    display: block;
+    width: 100%;
+    height: 68px;
+    background: url(../img/submit-btn.png) no-repeat top center;
+    background-size: contain;
+}
+
+.feedback-figure {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.contact-msg {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact-msg h2 {
+    color: #2f8dc8;
+    font-size: 18px;
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: normal;
+    text-transform: none !important;
+}
+
+.contact-msg p {
+    color: #acacac;
+    font-size: 14px;
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: normal;
+    text-transform: none !important;
+    line-height: 22px; 
+}
+
+.contact-msg p span {
+    display: block;
+    color: #707070;
+}
+
+.feedback-form .col-9 {
+    margin: 0 0 20px;
+}
+
+/*Contact Page */
+
+.contact-page .feedback-form {
+    background: none;
+    padding: 10px 20px 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.contact-page select {
+    width: 50%;
+    display: block;
+    margin: 0 0 15px;
+}
+
+.contact-page .feedback-form textarea {
+    margin: 0 0 20px;
+}
+
+.contact-page .feedback-form .submit {
+    background-position: right;
+}
+
+.contact-info {
+    background: url(../img/icon-contact.png) left top no-repeat;
+    padding: 0 0 0 80px;
+    font-size: 14px;
+    max-width: 166px;
+    margin: 0 auto;
+}
+
+.feedback-form .contact-info h3 {
+    color: #f19f50;
+}
+
+.contact-info a {
+    text-transform: none;
+}
+
+.contact-page .feedback-form label {
+    float: left;
+    width: 28%;
+}
+
+.contact-page .feedback-form label.required {
+    color: #464646;
+    margin:  0 0 20px;
+}
+
+.select-wrap {
+    border: 1px solid #acacac;
+    float: left;
+    width: 50%;
+    margin: 0 0 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.select-wrap select {
+    background: none;
+    border: 0;
+    padding: 3px;
+    display: block;
+    font-size: 14px;
+    color: #acacac;
+    width: 100%;
+    margin: 0;
+    height: 25px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.select-wrap select option {
+    padding: 3px;
+}
+
+
+.contact-page .feedback-form .input-txt {
+    height: 30px;
+    margin: 0 0 10px;
+}
+
+.contact-page .feedback-form .contact-info h3 {
+    margin: 0;
+}
+
+.contact-page .feedback-form .contact-info p {
+    margin: 0 0 5px;
+}
+
+.contact-page .feedback-form .submit {
+    display: block;
+    width: 100%;
+    height: 68px;
+    background: url(../img/submit-email.png) no-repeat top center;
+    background-size: contain;
+}
+
+/*Performance page*/
+
+.performance-page .page-content h2 {
+    color: #f19f50;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
+
+.performance-page .page-content p {
+    font-size: 14px;
+    color: #acacac;
+    margin: 0 0 20px;
+}
+
+.performance-page .shop-now-3 {
+    width: 100%;
+    height: 57px;
+    display: block;
+    background: url(../img/btn-shop-now-3.png) center no-repeat;
+    margin: 0 0 30px;
+}
+
+/*Privasy policy page*/
+
+.privacy-policy-page .head-group p {
+    padding: 0;
+}
+
+.privacy-policy-page .page-content h2 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #2f8dc8;
+    margin: 0 0 15px;
+}
+
+.privacy-policy-page .page-content p {
+    font-size: 14px;
+    color: #959595;
+    margin: 0;
+}
+
+.privacy-policy-page h3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #707070;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.contact-area {
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 0 20px;
+}
+
+.privacy-policy-page .contact-area p {
+    color: #f19f50;
+    font-size: 18px;
+    margin: 0 0 15px;
+}
+
+.contact-us {
+    display: block;
+    width: 100%;
+    height: 57px;
+    background: url(../img/btn-contact.png) no-repeat center;
+}
+
+.privacy-policy-page .page-content.global-width {
+    max-width: 621px;
+}
+
+.performance-page .page-banner-section {
+    margin: 0 auto;
+}
+
+.performance-page .page-content.global-width {
+    max-width: 621px;
+}
+
+.performance-page .head-group p {
+    padding: 0;
+}
+
+.performance-page .head-group {
+    padding: 12px 0 25px !important;
+}
+
+/*Delivary Day page */
+
+.dd-list li {
+    font-size: 14px;
+    color: #acacac;
+    margin: 0 0 20px;
+    padding: 0 0 0 30px;
+}
+
+.dd-list li.one {
+    background: url(../img/icon-one.png) no-repeat left top;
+}
+
+.dd-list li.two {
+    background: url(../img/icon-two.png) no-repeat left top;
+}
+
+.dd-list li.three {
+    background: url(../img/icon-three.png) no-repeat left top;
+}
+
+.dd-list li.three p {
+    width: 80%;
+    float: left;
+}
+
+.dd-list li.three figure {
+    float: right;
+    margin: 0 10px 0 0;
+}
+
+.dd-list li.four {
+    background: url(../img/icon-four.png) no-repeat left top;
+}
+
+.dd-list li.five {
+    background: url(../img/icon-five.png) no-repeat left top;
+}
+
+.dd-list li.six {
+    background: url(../img/icon-six.png) no-repeat left top;
+}
+

@@ -1,0 +1,381 @@
+/* sgcet */
+
+.page-banner {
+    position: relative;
+}
+
+.page-banner .img-caption {
+    text-align: center;
+    width: 100%;
+    background: #000;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px 0;
+}
+
+.page-banner .img-caption h4 {
+    color: #FFF;
+    margin: 0 0 10px;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.page-banner .img-caption p {
+    color: #707070;
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.scissor-img {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    display: none;
+}
+
+.saatva-green .head-group h2 span {
+    color: #48a86f;
+}
+
+.product-specs {
+    text-align: center;
+    margin: 0 0 40px;
+}
+
+.product-specs li {
+    padding: 0 15px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.product-specs h3 {
+    font-size: 18px;
+    color: #2f8dc8;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.product-specs p {
+    font-size: 14px;
+    color: #acacac;
+    margin: 0 0 10px;
+    padding: 0 20px;
+}
+
+.product-specs figure {
+    display: block;
+    height: 80px;
+}
+
+.product-specs figure img {
+    display: inline-block;
+    height: 100%;
+}
+
+.highlight-content {
+    padding: 35px 0;
+    text-align: center;
+    position: relative;
+    margin: 0 0 20px;
+}
+
+.highlight-content h3 {
+    margin: 0 0 5px;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 32px;
+    font-weight: normal;
+}
+
+.highlight-content p {
+    margin: 0 0 5px;
+    font-size: 16px;
+    color: #acacac;
+}
+
+.highlight-content .icon {
+    top: 20px;
+    right: 40px;
+}
+
+.green-home {
+    background: #ecf6f0;
+}
+
+.green-home h3 {
+    color: #2f8dc8;
+}
+
+.green-product {
+    background: url(../img/fabric-bg-2.jpg) repeat;
+}
+
+.material-list {
+    margin: 0 0 20px;   
+}
+
+.material-list li.odd ul {
+    background: #e6f4eb;
+}
+
+.material-list > li > ul {
+    padding: 20px !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.material-list li.even ul {
+    background: #d9efe1;
+}
+
+.know-fact {
+    background: #aec39f;
+    color: #FFF;
+    margin: 0 0 20px;
+    padding: 20px;
+}
+
+.know-fact figure {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.know-fact .fact-text h3 {
+    font-size: 24px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.know-fact .fact-text p {
+    font-size: 18px;
+    margin: 0;
+    text-align: justify;
+}
+
+.material-list li ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.material-list li ul ul {
+    padding: 0 0 0 40px;
+}
+
+.material-list li h4 {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #de483c;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.material-list li p {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #959595;
+    line-height: 14px;
+}
+
+.product-desc figure {
+    margin: 10px 0 10px;
+    text-align: center;
+}
+
+.product-desc .product-desc-txt h4 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #2f8dc8;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.product-desc .product-desc-txt p {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #707070;
+    text-align: justify;
+}
+
+.shop-now-wrap {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.shop-now-2 {
+    display: block;
+    width: 100%;
+    height: 64px;
+    background: url(../img/btn-shop-now.png) no-repeat center;
+    background-size: contain;
+}
+
+.green-product h3 {
+    color: #82a536;
+}
+
+.page-banner .img-caption p {
+    font-size: 18px;
+}
+
+.page-desc.highlight-content {
+    padding: 0;
+} 
+
+
+.page-desc.highlight-content h3 {
+    color: #82a536;
+}
+
+.page-desc.highlight-content p {
+    font-size: 16px;
+}
+
+.page-desc.highlight-content {
+    padding: 0;
+}
+
+.page-desc.highlight-content .icon {
+    right: 25px;
+    top: 0;
+}
+
+.saatva-green .head-group p {
+    color: #707070;
+}
+
+.why-use {
+    text-align: center;
+    background: #97c6e3;
+    color: #FFF;
+    padding: 20px;
+}
+
+.certipur-features {
+    background: url(../img/pattern-bg.png);
+    padding: 20px;
+}
+
+.why-use h2 {
+    font-size: 28px;
+    font-family: 'gotham_htfmedium';
+    font-weight: normal;
+    margin: 0 0 20px;
+    padding: 0;
+    line-height: 32px;
+}
+
+.why-use p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.certipur-features .icon {
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: 0 0 20px;
+}
+
+.certipur-features h3 {
+    color: #004996;
+    font-size: 15px;
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.item-feature-list {
+    margin: 0 0 20px;
+}
+
+.item-feature-list li {
+    width: 50%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    font-size: 12px;
+    background: url(../img/icon-feature-list.png) left top no-repeat;
+    padding-left: 20px;
+    line-height: 20px;
+    margin: 0 0 5px;
+}
+
+.shop-now-3 {
+    display: block;
+    text-align: center;
+    background-size: contain;
+}
+
+.biofarm-benefits {
+    margin: 0 0 30px;
+    background: url("../img/pattern-bg.png") repeat scroll 0 0 transparent;
+}
+
+.product-desc-wrap h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #2f8dc8;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+
+.take-care-planet {
+    text-align: center;
+    background: #f4f9fc;
+    padding: 30px;
+    margin: 0 0 30px;
+}
+
+.take-care-planet h2 {
+    color: #82a536;
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.take-care-planet p {
+    font-size: 14px;
+    color: #acacac;
+    text-align: justify;
+}
+
+.take-care-planet p span {
+    color: #82a536;
+}
+
+.saatva-green .page-content.global-width {
+    padding: 0;
+}
+
+.page-desc.highlight-content .icon {
+    display: none;
+}
+
+.product-desc .col-4 {
+    padding: 0 20px;
+}
+
+.shop-now-2.screen {
+    display: none !important;
+}
+
+.shop-now-2.mobile {
+    display: block !important;
+    margin: 0 0 20px
+}

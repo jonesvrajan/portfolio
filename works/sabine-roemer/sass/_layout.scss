@@ -1,0 +1,680 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+html, button, input, select, textarea {
+  color: #222;
+}
+
+html {
+  font-size: $base-font-size;
+  line-height: 1.4;
+}
+
+::-moz-selection, ::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+audio, canvas, img, video {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+a {
+    color: $link-font-color;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+* {
+  @include box-sizing;
+}
+
+body {
+    font-family: $secondary-font-family;
+    font-size: $base-font-size;
+    color: $primary-font-color;
+    opacity: 0;
+}
+
+.container {
+    max-width: $container-width;
+    margin: 0 auto;
+    position: relative;
+    @media screen and (max-width: $container-width) { 
+        padding: 0 15px;
+    }
+}
+
+#navbar {
+  border: 0 !important;
+  text-align: left;
+  @media screen and (min-width: $media-tablet) {
+    text-align: center;
+  }
+}
+
+.navbar-nav {
+  float: none;
+  @media screen and (max-width: 767px) {
+    height: auto !important;
+    border-top: 1px solid $primary-font-color;
+    border-bottom: 1px solid $primary-font-color;
+  }
+  > li {
+    @media screen and (min-width: $media-tablet) {
+      float: none;
+      display: inline-block;
+    }
+
+    &.has-sub-menu {
+      position: static;
+      @media screen and (max-width: 767px) {
+        &.active {
+          background: #EEE;
+        }
+      }
+    }
+  }
+
+.sub-menu {
+  @media screen and (max-width: 767px) {
+    width: auto !important;
+    background: #f8f8f8;
+    li {
+        padding: 0 0 0 20px;
+      a {
+        font-size: 14px;
+        &:hover {
+          background: none;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: $media-tablet) {
+    position: absolute;
+    left: 0;
+    text-align: center;
+      li {
+        float: none;
+        display: inline-block;
+      }
+    }
+  }
+}
+.navbar-header {
+  h1 {
+    margin: 0;
+  }
+
+  .navbar-brand {
+    @media screen and (min-width: $media-tablet) {
+      font-size: em(22px);
+    }
+  }
+}
+
+.navbar-inverse {
+  background: #910100;
+  color: #FFF;
+  border: 0 !important;
+  border-radius: 0;
+  margin: 0;
+  min-height: auto;
+  .navbar-brand {
+    color: #FFF;
+  }
+
+  .navbar-toggle {
+    border: 0;
+  }
+
+  .navbar-nav {
+    a {
+      @media screen and (min-width: $media-tablet) {
+          padding-top: 25px;
+          padding-bottom: 25px;
+        }
+    }
+    .active {
+      > a {
+        background: #959283;
+        color: #910100;
+        font-weight: bold;
+        &:hover {
+          background: #959283;
+        color: #910100;
+        font-weight: bold;
+        }
+      }
+    }
+  }
+
+}
+
+.nav {
+  li {
+    a {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      position: relative;
+      @media screen and (min-width: $media-tablet) {
+        &:after {
+          display: block;
+          content: "/";
+          top: 30%;
+          right: -6px;
+          position: absolute;
+        }
+      }
+      @media screen and (min-width: $media-tablet) {
+        &:hover, &:focus {
+          @media screen and (min-width: $media-tablet) {
+            background: none;
+          }
+          font-weight: bold;
+          color: $secondary-font-color;
+        }
+      }
+    }
+
+    &:last-child a:after {content: '';}
+
+    &.active {
+     > a {
+        @media screen and (min-width: $media-tablet) {
+          background: none;
+        }
+        font-weight: bold;
+        color: $secondary-font-color;
+      }
+    }
+  }
+}
+
+.navbar-toggle .icon-bar {
+  background: $secondary-font-color
+}
+
+.banner-area {
+  position: relative;
+  h1 {
+    font: normal 30px $primary-font-family;
+    text-transform: uppercase;
+    color: $secondary-font-color;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: -15px;
+    z-index: 9;
+    letter-spacing: 8px;
+    @media screen and (min-width: $media-tablet) {
+      font-size: 50px;
+      margin-top: -20px;
+    }
+
+    @media screen and (min-width: 1024px) {
+      font-size: 90px;
+      margin-top: -50px;
+    }
+  }
+  .carousel {
+    @media screen and (min-width: $media-tablet) {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+  }
+}
+
+.carousel-inner img {
+  width: 100%;
+}
+
+.inner {
+  .navbar-header {
+    float: none;
+    @media screen and (min-width: $media-tablet) {
+      text-align: center;
+    }
+    h1 {
+      font: normal 25px $primary-font-family;
+      text-transform: uppercase;
+      color: #000;
+      letter-spacing: 8px;
+      margin: 10px 0;
+      @media screen and (min-width: $media-tablet) {
+        margin: 25px 0;
+      }
+    }
+    .navbar-brand {
+      float: none;
+      color: $secondary-font-color;
+      text-transform: uppercase;
+    } 
+  }
+
+  .banner-area {
+    padding-top: 30px;
+    &.hero-image-only {
+      padding-top: 0;
+    }
+    .carousel-indicators {
+      top: -30px;
+      bottom: auto;
+      li {
+        width: auto;
+        height: auto;
+        text-indent: 0;
+        &.active {
+          @extend li;
+          color: $secondary-font-color;
+        }
+      }
+    }
+
+    .carousel {
+      padding-top: 30px;
+      margin: 0 auto 30px;
+    }
+
+    .carousel-caption {
+      position: static;
+      margin: 30px 0 0;
+      padding: 0;
+      h2 {
+      font: normal 16px $primary-font-family;
+      text-transform: uppercase;
+      letter-spacing: 8px;
+      color: $secondary-font-color;
+      margin: 0 0 30px;
+      text-shadow: none;
+        @media screen and (min-width: $media-tablet) {
+          font-size: 30px;
+        }
+      }
+      p {
+        font: normal 14px $secondary-font-family;
+        color: $primary-font-color;
+        letter-spacing: 3px;
+        line-height: 24px;
+        margin: 0 0 30px;
+        text-shadow: none;
+      }
+    }
+
+  }
+
+  .content-area {
+    text-align: center;
+    padding-bottom: 30px;
+    &.two-col {
+      p {
+        text-align: left;
+      }
+      .row {
+        padding-bottom: 30px;
+        figure {
+          margin-bottom: 30px;
+        }
+      }
+    }
+    h2 {
+      font: normal 16px $primary-font-family;
+      text-transform: uppercase;
+      letter-spacing: 8px;
+      color: $secondary-font-color;
+      margin: 0 0 30px;
+      @media screen and (min-width: $media-tablet) {
+        font-size: 30px;
+      }
+    }
+
+    h3 {
+      color: $secondary-font-color;
+      font-size: 18px;
+      letter-spacing: 3px;
+      margin: 0 0 30px;
+    }
+
+    p {
+      font: normal 14px $secondary-font-family;
+      color: $primary-font-color;
+      letter-spacing: 3px;
+      line-height: 24px;
+      margin: 0 0 30px;
+    }
+
+    a {
+      font-style: italic;
+      text-decoration: underline;
+    }
+    .content-banner {
+      margin: 0 0 30px;
+    }
+
+    .contact-us {
+      padding: 20px 0;
+
+      @media screen and (min-width: $media-tablet) {
+        padding: 100px 0;
+      }
+      h2 {
+        font-size: 16px;
+        line-height: 38px;
+      }
+    }
+
+    .contact-footer {
+      text-align: center;
+      address p {
+        @media screen and (min-width: $media-tablet) {
+          font-size: 35px;
+        }
+
+        a {
+          color: $secondary-font-color;
+          font-style: normal;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.hero-image-only {
+  .carousel-inner {
+    text-align: center;
+    .item {
+      img {
+        max-width: 100%;
+        width: auto;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.social-icons-gallery {
+  list-style: none;
+  text-align: center;
+  margin: 0 0 30px;
+  li {
+    display: inline-block;
+    margin: 0 15px;
+    height: 20px;
+    img {
+      display: inline-block;
+      height: 100%;
+    }
+
+    a {
+      height: 100%;
+      display: block;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+.gallery-list {
+  list-style: none;
+  margin: 0 0 30px;
+  padding: 0;
+  .col-sm-4 {
+    padding: 0;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.form-list {
+  margin: 0 auto 30px;
+  list-style: none;
+  padding: 0;
+  max-width: 400px;
+  li {
+    margin: 0 0 20px;
+    .form-control {
+      border-radius: 0;
+      font: bold 12px $secondary-font-family;
+      text-shadow: none;
+      height: 45px;
+      text-align: center;
+      text-transform: uppercase; 
+      &.submit {
+        background: #1e130f;
+        color: #FFF;
+        &:hover {
+          background: $primary-font-color;
+        }
+      }
+    }
+  }
+}
+
+.login-page {
+  padding: 50px 0;
+  .login-img-1 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+  }
+
+  .login-img-2 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: none;
+  }
+
+  @media screen and (min-width: 992px) {
+    .login-img-1, .login-img-2 {
+      display: block;
+      z-index: -1;
+    }
+  }
+
+}
+
+.next-story {
+  .row-1 {
+    display: none;
+  }
+
+  .row-2 {
+    display: block;
+  }
+}
+
+.down-arrow {
+  display: block;
+  width: 27px;
+  height: 16px;
+  background: url(../img/icon-bottom-arrow.jpg) no-repeat center;
+  margin: 0 auto;
+  &.active {
+    transform: rotate(180deg);
+  }
+}
+
+.iframe-video {
+  width: 100%;
+
+  @media screen and (min-width: $media-tablet) {
+    height: 300px;
+  }
+
+  @media screen and (min-width: 992px) {
+    height: 417px;
+  }
+}
+
+@media only screen and (min-width: 35em) {}
+
+@media print, (-o-min-device-pixel-ratio: 5 / 4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+
+
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+  &:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+  }
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  &.focusable {
+    &:active, &:focus {
+      clip: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      position: static;
+      width: auto;
+    }
+  }
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix {
+  &:before {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  *zoom: 1;
+}
+
+.clear {
+    clear: both;
+}
+
+.display-none {
+  display: none;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a {
+    text-decoration: underline;
+    &:visited {
+      text-decoration: underline;
+    }
+    &[href]:after {
+      content: " (" attr(href) ")";
+    }
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  .ir a:after {
+    content: "";
+  }
+  a {
+    &[href^="javascript:"]:after, &[href^="#"]:after {
+      content: "";
+    }
+  }
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr {
+    page-break-inside: avoid;
+  }
+  img {
+    page-break-inside: avoid;
+    max-width: 100% !important;
+  }
+  @page {
+    margin: 0.5cm;
+  }
+
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}
+

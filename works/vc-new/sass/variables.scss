@@ -1,0 +1,24 @@
+$baseFont:'Roboto', sans-serif;
+$navFont:'Oswald', sans-serif;
+$arial:'Arial', sans-serif;
+$baseFontColor:#000;
+$linkColor:#15548f;
+$base-font-size: 16px;
+
+/* Colors */
+$topPanelColor:#272b2f;
+$white : #fff;
+$mainNavBg : #272b2f;
+$borderColor:#ebebeb;
+
+$img : "../images/"; /* #{$img} */
+
+
+/* Sprite imgs */
+$toplinksicons: sprite-map("toplinks/*.png", $spacing: 100px, $layout: horizontal); 
+$maininksicons: sprite-map("mainlinks/*.png", $spacing: 100px, $layout: horizontal); 
+
+
+@function em($px, $base: $base-font-size) {
+    @return ($px / $base) * 1em;
+}

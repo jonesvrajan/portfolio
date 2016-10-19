@@ -1,0 +1,103 @@
+/* sgcet */
+
+@media only screen and (min-width: 768px) {
+
+	.mattress-details h2 {
+		font-size: 24px;
+	}
+
+	.featured-shop-now h3 {
+		font-size: 36px;
+		line-height: 40px;
+	}
+
+	.mattress-details-content {
+    	padding: 0 0 0 20px;
+	}
+
+	.shop-now-page .check-out-ul .col-6 {
+	    padding: 0 20px;
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+	}
+
+	.shop-now-page .head-group p {
+		padding: 0 50px;
+		font-size: 18px;
+	}
+
+	.comfort-level label {
+	    font-size: 14px;
+	}
+
+	.mattress-height label {
+	    font-size: 14px;
+	}
+
+	.mattress-details-list li {
+		padding: 0;
+	}
+
+	.mattress-details-list li > p a {
+		display: inline-block;
+	}
+
+	.mattress-details h2 {
+		text-align: left;
+		font-size: 18px;
+	}
+
+	.addto-cart img {
+    	width: 60%;
+	}
+
+	.mattress-size li.col-4 a {
+		height: 100px;
+		padding: 5px;
+	}
+
+}
+
+@media only screen and (min-width: 1000px) { 
+
+	.mattress-top-features .row .col-6 .our-mattress-btn {
+	    position: absolute;
+	    right: 0;
+	    bottom: 0;
+	}
+
+	.sales-tax h2 {
+		font-size: 24px;
+	}
+
+	.sales-tax-desc p {
+		font-size: 16px;
+	}
+
+	.mattress-features-list h3 {
+	    font-size: 36px;
+	}
+
+	.delivery-setup .col-3 figure {
+    	padding: 24px 0 0;
+	}
+
+	.mattress-details h3 {
+		font-size: 18px;
+	}
+
+	.comfort-level .col-4 {
+		width: 30%;
+	}
+
+	.mattress-size li.col-4 a {
+		height: 100px;
+		padding: 20px;
+	}
+
+	.height-content p {
+		font-size: 14px;
+	}
+
+}

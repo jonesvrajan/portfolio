@@ -1,0 +1,59 @@
+/* sgcet */
+
+@media only screen and (min-width: 768px) {
+
+	.offer-details {
+		background: url(../img/icon-offer.png) left center no-repeat;
+		padding: 15px 0;
+		padding-left: 100px;
+	}
+
+	.link-to-green {
+		text-align: left;
+		margin: 0 0 60px;
+	}
+
+	.link-to-green figure {
+		position: absolute;
+		right: 20px;
+		top: -20px;
+	}
+
+
+}
+
+@media only screen and (min-width: 1000px) { 
+
+	.img-indicator {
+		display: block;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+	
+	.mattress-points {
+		display: block;
+	}
+	
+	.img-indicator.mobile {
+		display: none;
+	}
+	
+	.img-indicator.screen {
+		display: block;
+	}
+
+	.om-top-content .col-3 {
+	    width: 31.6%;
+	}
+
+	.we-offer .col-3.screen {
+	    display: block;
+	}
+	
+	.img-indicator h2 {
+		text-align: left;
+		font-size: 36px;
+	}
+
+}

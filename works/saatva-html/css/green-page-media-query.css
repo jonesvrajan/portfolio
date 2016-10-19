@@ -1,0 +1,151 @@
+/* sgcet */
+
+@media only screen and (min-width: 768px) {
+
+    .product-specs li {
+        width: 25%;
+        float: left;
+        padding: 0 15px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .page-banner .img-caption {
+        text-align: center;
+        width: 100%;
+        padding: 40px 50px 0 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .product-desc.row {
+        margin-left: 0;
+        margin-right: 0; 
+    }
+
+    .col-3 {
+        float: left;
+        width: 25%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 5px;
+    }
+
+    .know-fact figure {
+        width: 15%;
+        float: left;
+        margin: 0;
+    }
+
+    .know-fact .fact-text {
+        width: 75%;
+        padding-left: 30px;
+        float: left;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .shop-now-wrap {
+        text-align: right;
+    }
+
+    .page-banner .img-caption {
+        background: none;
+        padding: 40px 50px 0 0;
+    }
+
+    .green-home {
+        background: #ecf6f0;
+        padding-right: 40px;
+    }
+
+    .page-banner .img-caption h4 {
+        font-size: 35px;
+        line-height: 38px;
+    }
+
+    .highlight-content h3 {
+        font-size: 30px;
+    }
+
+    .highlight-content p {
+        font-size: 18px;
+    }
+
+    .why-use h2 {
+        font-size: 36px;    
+    }
+
+    .product-desc-wrap h2 {
+        font-size: 30px;
+    }
+
+    .take-care-planet {
+        background: url(../img/plant-img.png) no-repeat right bottom #f4f9fc;
+        padding: 70px 215px 125px 50px;
+    }
+
+    .take-care-planet h2 {
+        font-size: 30px;
+    }
+
+    .why-use {
+        text-align: center;
+        background: #97c6e3;
+        color: #FFF;
+        padding: 90px 40px;
+    }
+
+    .certipur-features {
+        padding: 30px 30px 30px 50px;
+    }
+
+    .know-fact {
+        padding: 30px;
+    }
+
+    .product-desc .product-desc-txt h4 {
+        font-size: 18px;    
+    }
+
+    .page-desc.highlight-content {
+        padding: 10px 30px 0 0;
+    }
+
+    .product-desc figure {
+        margin: 20px 0 20px;
+        height: 117px;
+    }
+
+    .shop-now-2.screen {
+        display: block !important;
+    }
+
+    .shop-now-2.mobile {
+        display: none !important;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    
+    .item-feature-list li {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 980px) { 
+
+    .page-desc.highlight-content .icon {
+        display: block;
+    }
+
+}

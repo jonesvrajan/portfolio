@@ -1,0 +1,37 @@
+/* sgcet */
+
+.press-page .main-grid h2 {
+    color: #454545;
+    font-size: 18px;
+    text-transform: none;
+}
+
+.press-date-section {
+    background: #eceded;
+    padding: 8px 10px;
+    margin: 0 20px 20px;
+}
+
+.press-date-section p {
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+.press-date-section ul {
+    float: right;
+}
+
+.press-list > li {
+    border: 1px solid #efefef;
+    margin: 0 0 40px;
+}
+
+.press-logo {
+    margin: 0 0 10px;
+}
+
+.press-list li.col-3 figure img {
+    border: 1px solid #ccc;
+} 

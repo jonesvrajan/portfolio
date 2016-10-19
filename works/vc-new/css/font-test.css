@@ -1,0 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700);
+/* line 3, ../sass/font-test.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: none;
+}

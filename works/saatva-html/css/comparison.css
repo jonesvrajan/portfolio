@@ -1,0 +1,249 @@
+/* sgcet */
+
+.comparison-content h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: #3e3e3e;
+}
+
+.include-list li {
+	font-size: 12px;
+	color: #3e3e3e;
+}
+
+.include-list li.btn-wrap-cmp {
+	background: none;
+	padding: 0;
+}
+
+.comparison-content {
+	margin: 0 0 40px;
+	text-align: center;
+}
+
+.btn-wrap-cmp {
+	display: block;
+	text-align: center;
+}
+
+.include-list-wrap {
+	margin: 0 0 20px;
+}
+
+.doing-part {
+	background: #b4c986;
+	padding: 15px 20px 30px;
+	color: #FFF;
+	margin: 0 0 40px;
+}
+
+.doing-part h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 0 0 5px;
+	padding: 0;
+}
+
+.doing-part p {
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+.doing-part a {
+	color: #FFF;
+	text-transform: none;
+	border-bottom: 1px solid #c7d7a4;
+}
+
+.doing-part .part-desc {
+	padding-left: 100px;
+}
+
+.comparison-table {
+	margin: 0 0 40px;
+	overflow: auto;
+}
+
+.comparison-table h3 {
+	background: #4c4c4c;
+	color: #FFF;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 15px 20px;
+	font-weight: normal;
+	margin: 0 0 20px;
+}
+
+.comparison-table-content {
+	text-align: center;
+}
+
+.comparison-table-content tr td,
+.comparison-table-content tr th {
+	padding: 20px;
+	font-size: 14px;
+}
+
+.comparison-table-content .feature-head {
+	text-align: right;
+}
+
+.comparison-table-content tr .saatva {
+	background: #ececec;
+}
+
+.comparison-table-content .sub-head .feature-head {
+	background: #4c4c4c;
+	color: #FFF;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 15px 20px;
+	font-weight: normal;
+	text-align: left;
+} 
+
+.comparison-mobile.saatva-details {
+	width: 66%;
+	float: left;
+}
+
+.result .comparison-mobile {
+	width: 33%;
+	float: left;
+}
+
+.result .comparison-mobile li p:first-child {
+	display: none;
+}
+
+.comparison-mobile li {
+	padding: 5px 20px;
+}
+
+.comparison-mobile li p {
+	margin: 0;
+	float: left;
+	width: 50%;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.compare-company {
+	display: none;
+}
+
+.result .compare-company:first-child {
+	display: block;
+}
+
+.select-wrap {
+	border: 1px solid #acacac;
+	margin: 0 0 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.select-wrap select {
+	background: none;
+	border: 0;
+	padding: 3px;
+	display: block;
+	font-size: 14px;
+	color: #acacac;
+	width: 100%;
+	margin: 0;
+	height: 25px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.comparison-mobile {
+	border-bottom: 2px solid #CCC;
+	margin: 0 0 20px;
+}
+
+.comparison-mobile li {
+	border: 1px solid #f5f5f5;
+}
+
+.comparison-mobile li.li-1 {
+	height: 70px;
+}
+
+.comparison-mobile li.li-2 {
+	height: 60px;
+}
+
+.comparison-mobile li.li-3 {
+	height: 36px;
+}
+
+.comparison-mobile li.li-4 {
+	height: 72px;
+}
+
+.comparison-mobile li.li-5 {
+	height: 60px;
+}
+
+.comparison-mobile li.li-6 {
+	height: 60px;
+}
+
+.comparison-mobile li.li-7 {
+	height: 36px;
+}
+
+.comparison-mobile li.li-8 {
+	height: 84px;
+}
+
+.comparison-mobile li.li-9 {
+	height: 60px;
+}
+
+.comparison-mobile li.li-10 {
+	height: 84px;
+}
+
+.comparison-mobile li.li-11 {
+	height: 60px;
+}
+
+.comparison-mobile li.li-12 {
+	height: 60px;
+}
+
+.comparison-mobile li.li-13 {
+	height: 36px;
+}
+
+.comparison-mobile li.li-14 {
+	height: 36px;
+}
+
+.comparison-mobile li.li-15 {
+	height: 60px;
+}
+
+.comparison-mobile li.li-16 {
+	height: 60px;
+}
+
+.comparison-mobile li.li-17 {
+	height: 108px;
+}
+
+.comparison-mobile li.li-18 {
+	height: 60px;
+}
+
+.comparison-mobile li.li-19 {
+	height: 60px;
+}
+

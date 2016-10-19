@@ -1,0 +1,514 @@
+/* sgcet */
+
+.product-images {
+    margin: 0 0 20px;
+}
+
+.sales-tax {
+    background: #2f8dc8;
+    color: #FFF;
+    padding: 20px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 20px;
+}
+
+.sales-tax h2 {
+    margin: 0 0 10px;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.sales-tax p {
+    margin: 0 0 10px;
+}
+
+.sales-tax p a {
+    color: #FFF;
+    text-transform: none;
+    text-decoration: underline;
+}
+
+.sales-tax-desc p {
+    font-size: 13px;
+}
+
+.accordion-desc {
+    display: none;
+}
+
+.accordion-content .accordion-title {
+    background: #707070;
+    color: #FFF;
+    display: block;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.accordion-content .accordion-title:hover {
+    background: #9a9a9a;
+}
+
+.indicator {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+    width: 8px;
+    height: 7px;
+    display: block;
+    background: url(../img/acc-arrow.png) no-repeat bottom left;
+}
+
+.active .indicator {
+    background: url(../img/acc-arrow.png) no-repeat top left;
+}
+
+.accordion-content-ul {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.accordion-content-ul > li {
+    border: 1px solid #d7d7d7;
+    border-collapse: collapse;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table-row;
+    width: 100%;
+}
+
+.accordion-content {
+    margin: 0 0 20px;
+}
+
+.accordion-desc {
+    padding: 10px 20px;
+}
+
+.accordion-desc h3 {
+    font-size: 14px;
+    color: #acacac;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0 0 10px;
+}
+
+.accordion-desc p {
+    color: #acacac;
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+
+.accordion-options {
+    text-align: center;
+}
+
+.accordion-options li {
+    display: inline-block;
+    color: #2f8dc8;
+    border-left: 1px solid #2f8dc8;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.accordion-options li:first-child {
+    border-left: 0;
+}
+
+.accordion-options li a {
+    color: #2f8dc8;
+    text-transform: none;
+    padding: 0 10px;
+    line-height: 16px;
+}
+
+.accordion-options li a:hover {
+    color: #f19f50;
+}
+
+.accordion-desc .restricted-height {
+    height: 200px;
+    overflow: auto;
+}
+
+.shop-now-page .check-out-ul .col-6 {
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.product-images img {
+    width: 100%;
+}
+
+.mattress-details h2 {
+    font-size: 14px;
+    color: #454545;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.mattress-details .rating {
+    padding: 0;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.mattress-details h4 {
+    font-size: 14px;
+    color: #2f8dc8;
+    padding: 0;
+}
+
+.mattress-details h3 {
+    font-size: 12px;
+    color: #454545;
+    padding: 0;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.mattress-size li.col-4 {
+    padding: 0;
+}
+
+.mattress-size li.col-4 a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    background: #f4f0eb;
+    margin: 0 10px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: auto;
+    font-size: 12px;
+}
+
+.mattress-size li.col-4 a span {
+    display: block;
+}
+
+.mattress-size li.col-4 a span.name {
+    color: #454545;
+}
+
+.mattress-size li.col-4 a span.price {
+    color: #f19f50;
+}
+
+.mattress-size li.col-4 a.active {
+    background: #2f8dc8;
+}
+
+.mattress-size li.col-4 a.active span {
+    color: #FFF;
+}
+
+.comfort-level .col-4 {
+    padding: 0;
+    text-align: left;
+    width: auto;
+    margin-right: 10px;
+}
+
+.comfort-level label {
+    font-size: 12px;
+    color: #f19f50;
+}
+
+.comfort-level a {
+    font-size: 12px;
+    color: #2f8dc8;
+    padding: 0 0 0 20px;
+    display: block;
+}
+
+.mattress-details-list li {
+    margin: 0 0 20px;
+    padding: 0 20px;
+}
+
+.mattress-height label {
+    font-size: 12px;
+    color: #f19f50;
+}
+
+.mattress-height label input,
+.comfort-level label input {
+    margin-right: 5px;
+}
+
+.shop-now-page .check-out-ul .mattress-height .col-6 {
+    padding: 0;
+    text-align: left;
+}
+
+.shop-select {
+    float: right;
+}
+
+.has-shop-select h3 {
+    float: left;
+}
+
+.mattress-details-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mattress-details-list li > p {
+    padding: 0 0 0 20px;
+    color: #707070;
+    font-size: 14px;
+}
+
+.mattress-details-list li > p a {
+    color: #2f8dc8;
+    text-transform: none;
+    display: block;
+}
+
+.mattress-details-content {
+    padding: 0;
+    text-align: center;
+}
+
+.shipping-cost span {
+    color: #acacac;
+    display: block;
+    font-size: 18px;
+}
+
+.shipping-total {
+    color: #f19f50;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.addto-cart {
+    text-align: center;
+}
+
+.featured-shop-now {
+    background: #2f8dc8;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 0 30px;
+}
+
+.featured-shop-now h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.mattress-top-features,
+.choose-height,
+.delivery-setup {
+    background: #e0eef7;
+    position: relative;
+}
+
+.dot-bg {
+    width: 100%;
+    height: 5px;
+    background: url(../img/blue-border-bg.png) repeat-x top;
+}
+
+.dot-bg {
+    position: absolute;
+    left: 0;
+}
+
+.dot-bg.top {
+    top: -2px;
+}
+
+.dot-bg.bottom {
+    bottom: -2px;
+}
+
+.mattress-features-list > li {
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+.mattress-features-list h3 {
+    font-size: 20px;
+    line-height: 40px;
+    color: #454545;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.mattress-top-features p {
+    color: #707070;
+    font-size: 18px;
+    max-width: 800px;
+}
+
+
+.mattress-top-features ul li  {
+    font-size: 14px;
+    text-transform: none;
+    color: #454545;
+}
+
+.mattress-top-features ul li a:hover {
+    color: #2f8dc8;
+}
+
+.mattress-top-features .row .col-6 {
+    position: relative;
+}
+
+.mattress-top-features .row .col-6:first-child {
+    width: 40%;
+}
+
+.mattress-top-features .row .col-6:last-child {
+    width: 60%;
+}
+
+.mattress-top-features .row .col-6 .our-mattress-btn {
+    float: right;
+}
+
+.top-feature-list {
+    padding: 0 0 0 20px;
+}
+
+.mattress-features-list .comfort-level figure {
+    margin: 20px 0 0;
+}
+
+.mattress-features-list .comfort-level a {
+    float: right;
+}
+
+.height-content p {
+    color: #707070;
+    font-size: 12px;
+    margin: 0 0 10px;
+}
+
+.height-content p span {
+    color: #2f8dc8;
+    white-space: nowrap;
+}
+
+.height-content .col-4 {
+    padding: 10px;
+}
+
+.pricing-table {
+    width: 590px;
+    margin: 30px auto 0;
+    border: 1px solid #cecece;
+    color: #363d4f;
+    font-size: 12px;
+}
+
+.pricing-table th {
+    background: #dddddd;
+    text-align: center;    
+}
+
+.pricing-table td {
+    text-align: center;
+    border-bottom: 1px solid #cecece;
+}
+
+.delivery-setup .col-9 {
+    float: left;
+}
+
+.delivery-setup .col-3 {
+    float: right;
+}
+
+.delivery-setup .col-3 figure {
+    padding: 20% 0 0;
+}
+
+.mattress-features-list .review-desc h3 {
+    color: #2f8dc8;
+    font-size: 14px;
+    margin: 0 0 5px;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.mattress-features-list .review-percentage h3 {
+    color: #454545;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    line-height: 24px;
+}
+
+.shop-now-page .global-width {
+    padding: 0;
+}
+
+.shop-now-page .head-group p {
+    padding: 0 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.shop-now-page p {
+    text-align: justify;
+}
+
+.has-shop-select .select-wrap {
+    float: right;
+}
+
+.delivery-setup p {
+    font-size: 14px;
+}
+
+.product-img-wrap {
+    background: #f4f0eb;
+    padding: 10px 0;
+    margin: 0 0 20px !important;
+}
+
+.product-img-wrap p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+}
+
+.product-images .slides li figure {
+    padding: 10px 50px;
+}
+
+.row.margin-reset {
+    margin: 0;
+}
+
+select *    {
+  width: 14em;
+  padding: 0 1em;
+  text-indent: 0;
+  line-height: 2em;
+}
+
+option{
+ padding: 0.5em;
+}

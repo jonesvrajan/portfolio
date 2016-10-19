@@ -1,0 +1,39 @@
+/* sgcet */
+
+@media only screen and (max-width: 480px) {
+    .interview-list .featured-row h3 {
+        font: normal 12px/16px 'droid_serifregular';
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+	.interview-list .featured-row {
+        text-align: left;
+    }
+
+    .interview-list .featured-row .text {
+        float: left;
+        text-align: right;
+    }
+
+    .interview-list .featured-row figure {
+        float: right;
+    }
+
+    .interview-list .featured-row h3 {
+        font: normal 24px/22px 'droid_serifregular';
+    }
+
+    .int-width-row {
+        padding: 0;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) { 
+
+    
+
+}

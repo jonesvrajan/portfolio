@@ -1,0 +1,246 @@
+/* sgcet */
+
+
+.comfort-levels .head-group .contain-ml {
+    color: #f19f50;
+}
+
+ul.resp-tabs-list, p {
+    margin: 0 0 20px;
+    padding: 0px;
+}
+
+.resp-tabs-list li {
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.resp-tabs-list li a {
+    margin: 10px;
+    border: 1px solid #d7d7d7;
+    display: block;
+    padding: 13px 15px;
+    font-size: 24px;
+    color: #acacac;
+    font-weight: normal;
+    text-align: center;
+}
+
+.resp-tabs-list li a span {
+    display: block;
+    font-size: 12px;
+    color: #2f8dc8;
+}
+
+.resp-tabs-container {
+    padding: 0px;
+    background-color: #fff;
+    clear: left;
+}
+
+h2.resp-accordion {
+    cursor: pointer;
+    display: none;
+}
+
+.resp-tab-content {
+    display: none;
+    padding: 30px 15px;
+}
+
+.resp-tab-content p {
+    margin: 0 0 20px;
+}
+
+.resp-tabs-list li.resp-tab-active {
+    border-bottom: none;
+    margin-bottom: -1px !important;
+}
+
+.resp-tabs-list li.resp-tab-active a {
+    background: #2f8dc8;
+    color: #FFF;
+}
+
+.resp-tabs-list li.resp-tab-active a span {
+    color: #f19f50;
+}
+
+.resp-tab-active {
+    border-bottom: none;
+}
+
+.resp-content-active, .resp-accordion-active {
+    display: block;
+}
+
+.resp-tab-content {
+    background: #f4f0eb;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 960px;
+    margin: 0 auto;
+    color: #707070;
+    font-size: 14px;
+}
+
+.resp-tab-content h3 {
+    font-size: 24px;
+    color: #2f8dc8;
+    text-align: center;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.resp-tab-content ul h3 {
+    color: #f19f50;
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+}
+
+.resp-tab-content ul li p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+h2.resp-accordion {
+    font-size: 16px;
+    margin: 0px;
+    text-align: center;
+}
+
+h2.resp-accordion a {
+    border: 1px solid #d7d7d7;
+    display: block;
+    padding: 13px 15px;
+}
+
+h2.resp-accordion a span {
+    display: block;
+}
+
+h2.resp-tab-title:last-child {
+    border-bottom: 12px solid #c1c1c1 !important;
+    background: blue;
+}
+
+.resp-arrow {
+    width: 0;
+    height: 0;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 12px solid #c1c1c1;
+}
+
+h2.resp-tab-active span.resp-arrow {
+    border: none;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 12px solid #FFF;
+}
+
+/*-----------Accordion styles-----------*/
+h2.resp-tab-active {
+    background: #2f8dc8;
+    color: #FFF;
+}
+
+h2.resp-tab-active a {
+    color: #FFF;
+    font-size: 16px;
+    display: block;
+}
+
+h2.resp-tab-active span {
+    color: #f19f50;
+}
+
+
+.resp-easy-accordion  h2.resp-accordion {
+        display: block;
+}
+
+.resp-jfit {
+    width: 100%;
+    margin: 0px;
+}
+
+.resp-tab-content-active {
+    display: block;
+}
+
+.chart-bed {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+#horizontalTab {
+    margin: 0 0 20px;
+}
+
+.featured-area.fabric-bg {
+    background: url("../img/fabric-bg-2.jpg");
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.featured-area.fabric-bg h2 {
+    text-align: center;
+    padding: 20px 0;
+    color: #707070;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.featured-area.fabric-bg h2 span {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.comfort-level-cols .col-4 {
+    padding: 10px;
+}
+
+.comfort-level-cols .col-4 img {
+    width: 100%;
+}
+
+.comfort-level-cols-2 p {
+    color: #acacac;
+    font-size: 14px;
+}
+
+.comfort-levels .tab-content .col-9 {
+    margin: 0 0 20px;
+}
+
+.comfort-levels .tab-content .col-3 {
+    text-align: center;
+}
+
+.why-choose li {
+    list-style: disc outside;
+}
+
+.why-choose {
+    padding: 0 5px 0 20px;
+}
+
+.why-choose li.head {
+    list-style: none;
+}
+
+.comfort-levels {
+    text-align: justify;
+}

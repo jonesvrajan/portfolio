@@ -1,0 +1,72 @@
+/* sgcet */
+
+/*Delivary Day page */
+
+.dd-page .page-content.global-width {
+    max-width: 621px;
+}
+
+.dd-list li {
+    font-size: 14px;
+    color: #acacac;
+    margin: 0 0 20px;
+    padding: 0 0 0 30px;
+}
+
+.dd-list li.one {
+    background: url(../img/icon-one.png) no-repeat left top;
+}
+
+.dd-list li.two {
+    background: url(../img/icon-two.png) no-repeat left top;
+}
+
+.dd-list li.three {
+    background: url(../img/icon-three.png) no-repeat left top;
+}
+
+.dd-list li.three p {
+    width: 80%;
+    float: left;
+}
+
+.dd-list li.three figure {
+    float: right;
+    margin: 0 10px 0 0;
+}
+
+.dd-list li.four {
+    background: url(../img/icon-four.png) no-repeat left top;
+}
+
+.dd-list li.five {
+    background: url(../img/icon-five.png) no-repeat left top;
+}
+
+.dd-list li.six {
+    background: url(../img/icon-six.png) no-repeat left top;
+}
+
+
+.dd-page .page-content h2 {
+    color: #f19f50;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
+
+.dd-page .page-content p {
+    font-size: 14px;
+    color: #acacac;
+    margin: 0 0 20px;
+    text-align: justify;
+}
+
+.dd-page .shop-now-3 {
+    width: 100%;
+    height: 57px;
+    display: block;
+    background: url(../img/btn-shop-now-3.png) center no-repeat;
+    margin: 0 0 30px;
+}

@@ -1,0 +1,42 @@
+/* sgcet */
+/*Performance page*/
+
+.performance-page .page-content h2 {
+    color: #f19f50;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
+
+.performance-page .page-content p {
+    font-size: 14px;
+    color: #acacac;
+    margin: 0 0 20px;
+    text-align: justify;
+}
+
+.performance-page .shop-now-3 {
+    width: 100%;
+    height: 57px;
+    display: block;
+    background: url(../img/btn-shop-now-3.png) center no-repeat;
+    margin: 0 0 30px;
+}
+
+.performance-page .page-banner-section {
+    margin: 0 auto;
+}
+
+.performance-page .page-content.global-width {
+    max-width: 621px;
+}
+
+.performance-page .head-group p {
+    padding: 0;
+}
+
+.performance-page .head-group {
+    padding: 12px 0 25px !important;
+}
+

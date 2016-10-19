@@ -1,0 +1,125 @@
+/* sgcet */
+
+@media only screen and (min-width: 768px) {
+
+    .product-img-wrap p {
+        font-size: 14px;
+    }
+
+    .table-data-list .head {
+        display: block;
+    }
+
+    .table-data-list .table-contents li {
+        float: left;
+        padding: 0;
+        padding-right: 10px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .table-data-list .table-contents li.col-1 {
+        width: 20%
+    }   
+
+    .table-data-list .table-contents li.col-2 {
+        width: 32.5%;
+    }
+
+    .table-data-list .table-contents li.col-3 {
+        width: 32.5%
+    }
+
+    .table-data-list .table-contents li.col-4 {
+        width: 10%;
+    }
+
+    .table-data-list {
+        padding: 0 20px 30px 60px;
+    }
+
+    .mobile-head {
+        display: none;
+    }
+
+    .product-left-col {
+        width: 30%;
+        float: left;
+    }
+
+    .product-right-col {
+        width: 70%;
+        float: left;
+    }
+
+    .img-list li img {
+        width: 100%;
+    }
+
+    .download-btn-group {
+        text-align: right;
+    }
+
+    .table-data-list,
+    .product-desc-list,
+    .download-specs,
+    .img-list li {
+        text-align: left;
+    }
+
+    .content-wrap {
+        margin: 0;
+        border-bottom: 0; 
+    }
+
+    .table-contents li {
+        border-bottom: 0; 
+    }
+
+    .table-desc {
+        width: 100%;
+        text-align: left;
+        padding-left: 0 !important; 
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .specs-page .page-content .page-desc h3 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .specs-page .page-content .page-desc h4 {
+        font-size: 18px;
+    }
+
+    .download-btn, .shop-now-2 {
+        width: 296px;
+        height: 64px;
+        display: block;
+    }
+
+    .download-btn-group li {
+        margin: 0;
+    }
+
+    .img-list li {
+        margin: 0 0 10px;
+    }
+
+    .download-btn-group li {
+        display: inline-block;
+        margin-left: 40px;
+    }
+
+    .product-desc-list p.product-right-col:before {
+        content: ""
+    }
+
+    .product-desc-list p.product-right-col {
+        font-size: 14px;
+    }
+
+}

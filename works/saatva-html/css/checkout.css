@@ -1,0 +1,414 @@
+/* sgcet */
+
+.inline-block {
+    display: none;
+}
+
+.feedback-form {
+    background: #f4f0eb;  
+    padding: 50px 30px;  
+    margin: 0 auto 20px;
+    position: relative;
+}
+
+.feedback-form label {
+    display: block;
+    font-size: 14px;
+    color: #707070;
+}
+
+.feedback-form h2 {
+    color: #f19f50;
+    font-size: 26px;
+    margin: 0 0 20px;
+    padding: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.feedback-form-ul li label, .feedback-form-ul li input {
+    display: block;
+}
+
+.checkout-page .feedback-form h3 {
+    font-size: 24px;
+    margin: 0 0 15px;
+}
+
+.feedback-form h3 {
+    color: #2f8dc8;
+    font-size: 18px;
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.feedback-form .input-txt, .feedback-form textarea {
+    background: #FFF;
+    border: 1px solid #d7d7d7;
+}
+
+.feedback-form .input-txt {
+    width: 100%;
+    height: 28px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 0 5px;
+    padding: 10px 5px;
+    font-size: 14px;
+    color: #acacac;
+}
+
+.feedback-form textarea {
+    width: 100%;
+    height: 257px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    font-size: 14px;
+    color: #acacac;
+}
+
+.feedback-form .submit {
+    display: block;
+    width: 100%;
+    height: 68px;
+    background: url(../img/submit-btn.png) no-repeat top center;
+    background-size: contain;
+}
+
+
+/*Contact Page */
+
+.checkout-page .feedback-form {
+    background: none;
+    padding: 0 20px 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.checkout-page select {
+    width: 50%;
+    display: block;
+    margin: 0 0 15px;
+}
+
+.checkout-page .feedback-form textarea {
+    margin: 0 0 20px;
+}
+
+.checkout-page .feedback-form .submit {
+    background-position: right;
+}
+
+.feedback-form .contact-info h3 {
+    color: #f19f50;
+}
+
+.contact-info a {
+    text-transform: none;
+}
+
+.contact-page .feedback-form label {
+    float: none;
+    width: 100%;
+}
+
+.payment-method-wrap {
+    margin: 0 0 20px;
+}
+
+.contact-page .feedback-form label.required {
+    color: #464646;
+    margin:  0 0 20px;
+}
+
+.select-wrap {
+    border: 1px solid #acacac;
+    float: left;
+    width: 50%;
+    margin: 0 0 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.select-wrap select {
+    background: none;
+    border: 0;
+    padding: 3px;
+    display: block;
+    font-size: 14px;
+    color: #acacac;
+    width: 100%;
+    margin: 0;
+    height: 25px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.contact-page .feedback-form .input-txt {
+    height: 30px;
+    margin: 0 0 10px;
+}
+
+.contact-page .feedback-form .contact-info h3 {
+    margin: 0;
+    position: relative;
+    top: -10px;
+}
+
+.contact-page .feedback-form .contact-info .email {
+    margin: -5px 0 15px;
+}
+
+.contact-page .feedback-form .contact-info p {
+    margin: 0 0 5px;
+}
+
+.contact-page .feedback-form .submit {
+    display: block;
+    width: 100%;
+    height: 68px;
+    background: url(../img/submit-email.png) no-repeat top center;
+    background-size: contain;
+    margin: 0 0 40px;
+}
+
+.accordion-menu {
+    display: block;
+    background: #007bc1;
+    color: #FFF;
+    padding: 5px 20px;
+    border-bottom: 1px solid #02669f;
+    font-size: 14px; 
+}
+
+.cart-list {
+    width: 100%;
+    border: 1px solid #b4b4b4;
+    border-collapse: inherit;
+    font-size: 12px;
+    margin: 0 0 20px;
+}
+
+.cart-list td {
+    text-align: center;
+    padding: 5px 15px;
+}
+
+.cart-list td.col-2,
+.cart-list td.col-4 {
+    background: #f4f0eb;
+    width: 20% !important;
+    float: none !important; 
+}
+
+.cart-list .table-head {
+    background: #707070;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.cart-list .text-head td {
+    color: #2f8dc8;
+    text-transform: uppercase;
+}
+
+.cart-list .table-head th,
+.cart-list .table-head td {
+    padding: 10px;
+    font-weight: normal;
+}
+
+.cart-list td.left-align {
+    text-align: left;
+}
+
+.payment-method-wrap {
+    background: #f4f0eb !important;
+}
+
+.label-100 label {
+    width: auto !important;
+}
+
+.checkout-page .feedback-form-ul {
+    margin: 0 0 20px;
+    display: none;
+}
+
+.delivery-address {
+    text-transform: uppercase;
+    color: #464646;
+    margin: 20px 0 10px;
+}
+
+.checkbox {
+    width: auto !important;
+    float: none !important;
+}
+
+.checkbox input {
+    display: inline !important;
+}
+
+.card-icons {
+    margin: 20px 0 20px;
+}
+
+.payment-icon {
+    right: -20px;
+}
+
+.feedback-form-ul li {
+    position: relative;
+}
+
+.payment-icon {
+    display: none;
+}
+
+.norton-icon {
+    display: block;
+    right: 0;
+    top: 0;
+}
+
+.payment-btn {
+    margin: 20px 0;
+}
+
+.card-expiry .select-wrap {
+    width: 45%;
+    margin-right: 10px;
+    background: #FFF;
+}
+
+.cart-list .col-1 {
+    width: 35%;
+}
+
+.cart-list .col-3 {
+    width: 15%;
+}
+
+.feedback-form-ul li.clearfix.label-100.screen .select-wrap,
+.feedback-form-ul li.clearfix.label-100.screen label {
+    float: none;
+}
+
+.feedback-form-ul li.clearfix.label-100.screen label {
+    margin: 0 0 10px;
+}
+
+#billing-address {
+    margin: 20px 0;
+    display: none;
+}
+
+.delivery-address b {
+    font-size: 14px;
+}
+
+.payment-method-wrap .global-width {
+    padding: 0;
+}
+
+.table-head.bottom {
+    display: table-row;
+    background: #FFF;
+    color: #707070;
+    font-size: 12px;
+}
+
+.checkout-page .feedback-form-ul.first-ul {
+    margin: 20px 0;
+}
+
+.feedback-form  .security-code .input-txt  {
+    width: 70px;
+}
+
+.cart-list .table-head {
+    text-align: center;
+    border-bottom: 1px solid #FFF;
+    margin: 0 0 1px;
+}
+
+.phone-no {
+    display: block;
+    text-align: center;
+}
+
+.checkout-page .payment-btn a {
+    width: 60%;
+    display: inline-block;
+}
+
+.checkout-page .payment-btn a img {
+    width: 100%;
+}
+
+.norton-icon {
+    width: 80px;
+    display: inline-block;
+    float: right;
+}
+
+.norton-icon img {
+    width: 100%;
+}
+
+.table-head .show-details {
+    background: #707070;
+    color: #FFF;
+    display: block;
+}
+
+.table-head.bottom .show-details:focus {
+    background: #939393;
+}
+
+.cart-list .item td {
+    border-bottom: 1px solid #dedede;
+}
+
+.accordion-menu {
+    position: relative;
+}
+
+.accordion-menu .arrow {
+    position: absolute;
+    top: 16px;
+    right: 3px;
+    width: 0;
+    height: 0;
+    float: right;
+    margin-right: 10px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #ccc;
+}
+
+.accordion-menu.active .arrow {
+    margin-right: 10px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 8px solid #FFF;
+    border-top: 0;
+}
+
+.table-head.mobile {
+    display: table-row;
+}
+

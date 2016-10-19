@@ -1,0 +1,29 @@
+/* sgcet */
+
+@media only screen and (min-width: 768px) {
+
+    .ul-without-col .global-width {
+        width: 66.6%;
+    }
+
+    .btn-section-ul {
+        max-width: 834px;
+        float: right;
+    }
+
+    .btn-section-ul .col-4 {
+        text-align: left;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) { 
+
+    .return-policy-ul .bg-home-delivery {
+        background: url(../img/bg-deliver-home.png) no-repeat bottom;
+        padding-bottom: 100px;
+        padding-top: 15px;
+    }
+
+
+}

@@ -1,0 +1,53 @@
+/* sgcet */
+/*Privasy policy page*/
+
+.privacy-policy-page .head-group p {
+    padding: 0;
+}
+
+.privacy-policy-page .page-content h2 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #2f8dc8;
+    margin: 0 0 15px;
+}
+
+.privacy-policy-page .page-content p {
+    font-size: 14px;
+    color: #959595;
+    margin: 0;
+    text-align: justify;
+}
+
+.privacy-policy-page h3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #707070;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.contact-area {
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 0 20px;
+}
+
+.privacy-policy-page .contact-area p {
+    color: #f19f50;
+    font-size: 18px;
+    margin: 0 0 15px;
+}
+
+.contact-us {
+    display: block;
+    width: 100%;
+    height: 57px;
+    background: url(../img/btn-contact.png) no-repeat center;
+}
+
+.privacy-policy-page .page-content.global-width {
+    max-width: 621px;
+}
+
+

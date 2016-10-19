@@ -1,0 +1,156 @@
+/* sgcet */
+
+.am-content-list {
+    list-style-type: none;
+}
+
+.am-content-list li {
+    position: relative;
+    padding-top: 33px;
+}
+
+.am-content-list li.li-even {
+    background: url("../img/fabric-bg-2.jpg");
+}
+
+.am-content-list li.li-odd {
+    background: #fff;
+}
+
+.am-content-list li .image-sec {
+    margin: 0 auto 40px;
+    width: auto;
+    text-align: center;
+}
+
+.am-content-list li .image-sec img {
+    max-width: 100%;
+}
+
+.am-content-list li.handcraft .image-sec {
+    left: 9%;
+    max-width: 218px;
+    top: 60px;
+}
+
+.am-content-list li.local-material .image-sec {
+    max-width: 302px;
+    right: 20px;
+    top: 30px;
+}
+
+.am-content-list li.local-distribution .image-sec {
+    left: 20px;
+    bottom: 34px;
+}
+
+.am-content-list li.money-pocket .image-sec {
+    right: 20px;
+    top: 30px;
+    margin-top: 0;
+}
+
+.am-content-list li .background-1 {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.am-content-list li.handcraft {
+    padding-bottom: 46px;
+    min-height: 172px;
+    z-index: 3;
+}
+
+.am-content-list li.local-material {
+    padding-bottom: 20px;
+    min-height: 245px;
+    z-index: 2;
+}
+
+.am-content-list li.local-material .mattress-img .cont p {
+    margin: 0 0 20px;
+}
+
+.am-content-list li.local-distribution {
+    padding-bottom: 180px;
+    min-height: 165px;
+    z-index: 1;
+}
+
+.am-content-list li.money-pocket {
+    min-height: 150px;
+    z-index: 2;
+}
+
+.am-content-list li.handcraft .background-1 {
+    height: 60px;
+    bottom: -20px;
+    background: url("../img/handcraft-bottom.png") right 0 no-repeat;
+}
+
+
+.am-content-list li.local-material .background-1 {
+    background: url("../img/local-material-bottom.png") no-repeat scroll 17px 0 rgba(0, 0, 0, 0);
+    bottom: -26px;
+    height: 106px;
+}
+
+.am-content-list li.local-distribution .background-1 {
+    height: 163px;
+    bottom: 0px;
+    background: url("../img/local-distribution-bottom.png") no-repeat scroll bottom left rgba(0, 0, 0, 0);
+}
+
+.am-content-list li .cont-sec {
+    margin: 0 !important;
+    max-width: 587px;
+    padding: 0 15px;
+    width: 100%;
+    max-width: 100%;    
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.am-content-list li .cont-sec .head-1 {
+    font: 18px/24px 'gotham_htfbook';
+    color: #0c4366;
+    text-transform: uppercase;
+}
+
+.am-content-list li .cont-sec .cont {
+    font: 14px/24px 'gotham_htfbook';
+    color: #707070;
+    text-align: center;
+}
+
+.am-content-list li .cont-sec .cont p {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.am-content-list li.li-even .cont-sec {
+    float: right;
+    margin-right: 0% !important;
+}
+
+.am-content-list li.li-odd .cont-sec {
+    float: left;
+    margin-left: 0% !important;
+}
+
+.am-page .head-group h2 {
+    color: #0c4366; 
+}
+
+.am-page .head-group p {
+    color: #9a0b0b;
+}
+
+.am-content-list.global-width {
+    padding: 0;
+}

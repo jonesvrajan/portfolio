@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Voucher Codes | User Saved Coupons</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="css/screen.css?ver=1.0" media="screen, projection" rel="stylesheet" type="text/css" />        
+        <link href="css/mixins.css" rel="stylesheet"/>
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+         <div class="top-panel mobile-menu">
+            <div class="left-menu mobile sb-slidebar sb-left">
+                <ul class="menu-wrap-ul ">
+                    <li class="has-sub-menu">
+                        <a href="#"><i><img src="images/icon-country.png" alt=""/></i>Country <i class="drop-arrow"><img src="images/countries/flag-india.png" alt=""/></i></a>
+                        <ul>
+                            <li><a href="#">India</a></li>
+                            <li><a href="#">Malaysia</a></li>
+                            <li><a href="#">UK</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="login-mobile.html"><i><img src="images/icon-login.png" alt=""/></i>Login</a></li>
+                    <li><a href="#"><i><img src="images/icon-sign-up.png" alt=""/></i>sign up</a></li>
+                    <li><a href="#"><i><img src="images/icon-help.png" alt=""/></i>How to use a coupon</a></li>
+                    <li><a href="#"><i><img src="images/icon-fav.png" alt=""/></i>Favourite</a></li>
+                    <li><a href="#"><i><img src="images/icon-faq.png" alt=""/></i>Faq</a></li>
+                    <li><a href="#"><i><img src="images/icon-saved.png" alt=""/></i>Saved coupons</a></li>
+                    <li><a href="#"><i><img src="images/icon-suggest.png" alt=""/></i>Suggest a store</a></li>
+                    <li><a href="#">S<i><img src="images/icon-submit.png" alt=""/></i>Submit a coupon</a></li>
+                    <li><a href="#"><i><img src="images/icon-download.png" alt=""/></i>App download</a></li>
+                </ul>
+            </div>
+            <div class="right-menu sb-slidebar sb-right">
+                <ul class="menu-wrap-ul">
+                    <li>
+                        <a href="#">Category</a>
+                        <ul class="right-menu-ul clearfix">
+                            <li><a href="#">Mobiles &amp; Tablets </a></li>
+                            <li><a href="#">Fashion </a></li>
+                            <li><a href="#">Travel </a></li>
+                            <li><a href="#">Food &amp; Dining</a></li>
+                            <li><a href="#">Computers, Laptops</a></li>
+                            <li><a href="#">Entertainment</a></li>
+                        </ul>
+                        <a href="#" class="clearfix clear">Stores</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="sb-site">
+            <section id="outer-panel">
+                <div class="header-panel">
+                    <header class="clearfix">
+                        <div class="top-panel">
+                            <div class="wrapper">
+                                <div class="left-menu mobile">
+                                    <a href="javascript:void(0)" class="show-menu-left sb-toggle-left"><span class="icon"></span><span class="icon-close"></span></a>
+                                </div>
+                                <a href="#" class="search-icon mobile"></a>
+                                <div class="right-menu">
+                                    <a href="javascript:void(0)" class="show-menu sb-toggle-right"><span class="icon"></span><span class="icon-close"></span></a>
+                                    <ul class="menu-wrap-ul">
+                                        <li><a href="#">APP<i class="icon-mob"></i></a></li>
+                                        <li><a href="#" class="dot">Suggest a store</a></li>
+                                        <li><a href="#" class="dot">Favourite stores </a></li>
+                                        <li class="has-sub-menu">
+                                            <a href="#" class="down-arrow">My Account</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#" id="login"><i class="icon-flag"><img src="images/icon-key.png" alt=""></i>Login</a></li>
+                                                <li><a href="#"><i class="icon-flag"><img src="images/icon-signup.png" alt=""></i>SignUp</a></li>
+                                                <li><a href="#"><i class="icon-flag"><img src="images/icon-submit-c.png" alt=""></i>Submit a coupon</a></li>
+                                                <!-- <li><a href="#"><i class="icon-flag"><img src="images/icon-profile.png" alt=""></i>Profile</a></li>
+                                                <li><a href="#"><i class="icon-flag"><img src="images/icon-settings.png" alt=""></i>Acc. preferences</a></li>
+                                                <li><a href="#"><i class="icon-flag"><img src="images/icon-logout.png" alt=""></i>Logout</a></li> -->
+                                            </ul>
+                                        </li>
+                                        <li class="has-sub-menu">
+                                            <a href="#" class="down-arrow">English</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Malai</a></li>
+                                                <li><a href="#">Standard Mandarin</a></li>
+                                                <li><a href="#">Portugese</a></li>
+                                                <li><a href="#">Italian</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-sub-menu">
+                                            <a href="#" class="down-arrow"><img src="images/countries/flag-india.png" alt="India"/></a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#"><i class="icon-flag"><img src="images/countries/flag-uk.png" alt="UK"></i>UK</a></li>
+                                                <li><a href="#"><i class="icon-flag"><img src="images/countries/flag-malaysia.png" alt="Malaysia"></i>Malaysia</a></li>
+                                                <li><a href="#"><i class="icon-flag"><img src="images/countries/flag-singapore.png" alt="Singapore"></i>Singapore</a></li>
+                                                <li><a href="#"><i class="icon-flag"><img src="images/countries/flag-hongkong.png" alt="HongKong"></i>HongKong</a></li>
+                                                 <li><a href="#"><i class="icon-flag"><img src="images/countries/flag-vietnam.png" alt="Vietnam"></i>Vietnam</a></li>
+                                                <li><a href="#"><i class="icon-flag"><img src="images/countries/flag-indonesia.png" alt="Indonesia"></i>Indonesia</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-panel search-top">
+                            <div class="wrapper clearfix">
+                                <h1 id="logo"><a href="#"><img src="images/voucher-codes-logo.png" alt="Voucher Codes"></a></h1>
+                                <div class="header-search search-panel">
+                                    <input type="text" name="search" placeholder="Help Text">
+                                    <input type="submit" value="&nbsp;">
+                                    <a class="mobile close-search" href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+                <div class="content-panel">
+                    
+                        
+                    <!-- Navigation -->
+                    <nav class="global-menu screen">
+                        <ul class="wrapper">
+                            <li class="category"><a href="#"> <span class="menu-icon"><img src="images/icon-category.png" alt=""/ ></span>All Categories</a>
+                                <ul>
+                                    <li><a href="#">drop1</a></li>
+                                    <li><a href="#">drop2</a></li>
+                                    <li><a href="#">drop3</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="#"><span class="menu-icon"><img src="images/icon-mobile.png" alt=""/ ></span> Mobile &amp; Tablets</a></li>
+                            <li class="menu-item"><a href="#"> <span class="menu-icon"><img src="images/icon-fashion.png" alt=""/ ></span> Fashion</a></li>
+                            <li class="menu-item"><a href="#"><span class="menu-icon"><img src="images/icon-travel.png" alt=""/ ></span>Travel</a></li>
+                            <li class="menu-item"><a href="#"><span class="menu-icon"><img src="images/icon-dining.png" alt=""/ ></span>Food and Dining</a></li>
+                            <li class="menu-item"><a href="#"><span class="menu-icon"><img src="images/icon-electronics.png" alt=""/ ></span>Electronics</a></li>
+                            <li><a href="#"><span class="menu-icon"><img src="images/icon-stores.png" alt=""/ ></span>All Stores</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Navigation -->
+                    <div class="page-content clearfix inner-page profile-pages user-saved-coupons">
+                        <div class="user-menu-wrap clearfix wrapper screen">
+                            <ul class="user-menu clearfix">
+                                <li class="user-profile"><a href="user-profile.html">John's profile</a></li>
+                                <li class="saved-coupons"><a href="user-saved-coupons.html">Saved coupons</a></li>
+                                <li class="fav-stores"><a href="user-fav-stores.html">Favourite Stores</a></li>
+                                <li class="acc-preference"><a href="user-preferences.html">Account Preferences</a></li>
+                            </ul>
+                            <a href="#" class="last-used">Last login: 14 Aug 2014</a>
+                        </div>
+                        <div class="user-desc-wrap wrapper clearfix">
+                            <div class="user-desc">                           
+                                <h2>John kurian</h2>
+                                <p>Lorem ipsum is simple dummy text of the print and typesetting industry.</p>
+                            </div>
+                            <a href="edit-profile.html" class="edit-profile">Edit Profile</a>
+                        </div>
+                        <div class="user-menu-mobiile mobile">
+                            <select id="user-menu-select">
+                                <option>John's profile</option>
+                                <option>Saved coupons</option>
+                                <option>Favourite Stores</option>
+                                <option>Account Preferences</option>
+                            </select>
+                        </div>
+                       <div class="main-offers-wrap wrapper clearfix">
+                            <h3>John's Activity</h3>
+                            <div class="left-col">
+                                <h2 class="styled-bg"><span class="icon"><img src="images/My-Account-Preferences.png" alt="" /></span> Edit Profile</h2>
+                                <ul class="edit-profile-ul form-ul">
+                                    <li>
+                                        <label>Login Name</label>
+                                        <input type="text" class="input-text"/>
+                                    </li>
+                                    <li>
+                                        <label>Name</label>
+                                        <input type="text" class="input-text"/>
+                                    </li>
+                                    <li>
+                                        <label>Password</label>
+                                        <input type="password" class="input-text"/>
+                                    </li>
+                                    <li>
+                                        <label>Confirm password</label>
+                                        <input type="text" class="input-text"/>
+                                    </li>
+                                    <li>
+                                        <label>Email</label>
+                                        <input type="text" class="input-text"/>
+                                    </li>
+                                    <li>
+                                        <label>Gender</label>
+                                        <select id="profile-select">
+                                            <option>Option 1</option>
+                                            <option>Option 2</option>
+                                        </select>
+                                    </li>
+                                    <li class="datepicker-wrap">
+                                        <label>Birthday</label>
+                                        <input type="text" class="input-text datepicker" />
+                                        <span class="calendar-icon"></span>
+                                    </li>
+                                    <li>
+                                        <label>Address</label>
+                                        <textarea class="text-area" rows="4" cols="4"></textarea>
+                                    </li>
+                                    <li class="btn-wrap">
+                                        <a href="#" class="tn btn-primary">Save Changes</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right-col">
+                                <h2><span>Similiar stores</span></h2>
+                                <ul class="similiar-stores clearfix">
+                                    <li><a href="http://www.ebay.in/" target="_blank"><img src="images/stores/babyoye.jpg" alt=""></a></li>
+                                    <li><a href="http://www.myntra.com/" target="_blank"><img src="images/stores/ebay.jpg" alt=""></a></li>
+                                    <li><a href="http://www.flipkart.com/" target="_blank"><img src="images/stores/myntra.jpg" alt=""></a></li>
+                                    <li><a href="http://www.ebay.in/" target="_blank"><img src="images/stores/fab-furnish.jpg" alt=""></a></li>
+                                    <li><a href="http://www.ebay.in/" target="_blank"><img src="images/stores/babyoye.jpg" alt=""></a></li>
+                                    <li><a href="http://www.myntra.com/" target="_blank"><img src="images/stores/ebay.jpg" alt=""></a></li>
+                                </ul>
+                                <div class="inner-newsletter screen">
+                                    <div class="inner-nl-main">
+                                        <input type="text" placeholder="Email address"/>
+                                        <a href="" class="newsletter-signup">Sign Up</a>
+                                    </div>
+                                    <div class="inner-nl-text">
+                                        <h3>Never Miss!</h3>
+                                        <p>The best vouchercodes again!</p>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                   </div>
+                </div>
+                <div class="footer-panel">
+                    <footer class="row clearfix">
+                        <div class="wrapper">
+                            <div class="footer-row-1 clearfix">
+                                <div class="col-6 testimonials screen">
+                                    <h3>Testimonials</h3>
+                                    <div class="testimonial-slider flexslider">
+                                        <ul class="slides">
+                                            <li>
+                                                <div class="testimonial-text">
+                                                    <p>
+                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem 
+                                                        Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum..
+                                                    </p>
+                                                    <span class="icon-speech-bubble"></span>
+                                                </div>
+                                                <div class="name">PI Sharma</div>
+                                            </li>
+                                            <li>
+                                                <div class="testimonial-text">
+                                                    <p>
+                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem 
+                                                        Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum..
+                                                    </p>
+                                                    <span class="icon-speech-bubble"></span>
+                                                </div>
+                                                <div class="name">PI Sharma</div>
+                                            </li>
+                                            <li>
+                                                <div class="testimonial-text">
+                                                    <p>
+                                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem 
+                                                        Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum..
+                                                    </p>
+                                                    <span class="icon-speech-bubble"></span>
+                                                </div>
+                                                <div class="name">PI Sharma</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-6 footer-menu-wrap">
+                                    <ul class="footer-menu-ul clearfix">
+                                        <li class="col-4">
+                                            <ul class="footer-menu">
+                                                <li class="footer-head"><h3>Voucher codes </h3></li>
+                                                <li class="footer-menu-item"><a href="#">Top 15 Vouchers</a></li>
+                                                <li class="footer-menu-item"><a href="#">Top 15 Offers</a></li>
+                                                <li class="footer-menu-item"><a href="#">Top 15 Deals</a></li>
+                                                <li class="footer-menu-item"><a href="#">New Voucher Codes</a></li>
+                                                <li class="footer-menu-item"><a href="#">Ending Soon</a></li>
+                                                <li class="footer-menu-item"><a href="#">Expired Vouchers</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="col-4">
+                                            <ul class="footer-menu">
+                                                <li class="footer-head"><h3>Voucher Category </h3></li>
+                                                <li class="footer-menu-item"><a href="#">Mobile &amp; Tablets</a></li>
+                                                <li class="footer-menu-item"><a href="#">Fashion</a></li>
+                                                <li class="footer-menu-item"><a href="#">Travel</a></li>
+                                                <li class="footer-menu-item"><a href="#">Food &amp; Dining</a></li>
+                                                <li class="footer-menu-item"><a href="#">Electronics</a></li>
+                                                <li class="footer-menu-item"><a href="#">Miscellaneous</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="col-4">
+                                            <ul class="footer-menu">
+                                                <li class="footer-head"><h3>About</h3></li>
+                                                <li class="footer-menu-item"><a href="#">About Us </a></li>
+                                                <li class="footer-menu-item"><a href="#">Privacy policy &amp;</a></li>
+                                                <li class="footer-menu-item"><a href="#">Disclaimer</a></li>
+                                                <li class="footer-menu-item"><a href="#">Contact Us</a></li>
+                                                <li class="footer-menu-item"><a href="#">Special Offers</a></li>
+                                                <li class="footer-menu-item"><a href="#">We are hiring</a></li>
+                                                 <li class="footer-head mobile"><h3>Follow Us</h3></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-row-2 wrapper clearfix">
+                            <div class="col-6 input-area screen">
+                                <div class="input-wrap">
+                                    <input type="text" class="input-txt" placeholder="Drop your E-mail for updates"/>
+                                    <input type="submit" class="button-submit"/>
+                                </div>
+                                <p>Subscribe to the Best of Vochercodes !</p>
+                            </div>
+                            <div class="col-6">
+                                <ul class="social-icons">
+                                    <li class="icon-fb"><a href="#"></a></li>
+                                    <li class="icon-tw"><a href="#"></a></li>
+                                    <li class="icon-gp"><a href="#"></a></li>
+                                    <li class="icon-in"><a href="#"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-row-3 footer-bottom">
+                            <div class="wrapper">
+                                <ul class="footer-list screen clearfix">
+                                    <li class="coupon-number">
+                                        <h4>25,467</h4>
+                                        <span>Coupons used in last 24 Hours</span>
+                                    </li>
+                                    <li class="store-details">
+                                        <h4>500k+ coupons</h4>
+                                        <span>At 50k Stores</span>
+                                    </li>
+                                    <li class="retailers">
+                                        <h4>5000+</h4>
+                                        <span>Retailers</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="copyright">All right reserved by <a href="http://www.vouchercodes.in" target="_blank">www.vouchercodes.in</a> </p>
+                        </div>
+                    </footer>
+                </div>
+            </section>
+        </div>
+
+        <!-- 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        -->
+        <script src="js/vendor/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" href="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

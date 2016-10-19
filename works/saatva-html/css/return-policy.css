@@ -1,0 +1,69 @@
+/* sgcet */
+
+.ul-with-col.global-width {
+    margin: 0 auto;
+}
+
+.return-policy-ul h2 {
+    font-size: 24px;
+    color: #2f8dc8;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.return-policy-ul h3 {
+    font-size: 18px;
+    color: #f19f50;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.return-policy-ul p {
+    font-size: 14px;
+    color: #acacac;
+    margin: 0 0 5px;
+}
+
+.return-policy-ul .even {
+    padding: 30px 0;
+}
+
+.return-policy-ul .fabric-texture {
+    padding: 30px 0;
+}
+
+.return-policy-ul .fabric-texture h3 {
+    color: #2f8dc8;
+}
+
+.return-policy-ul .bg-home-delivery p {
+    color: #707070;
+}
+
+.return-policy-ul .bg-home-delivery p.bold {
+    color: #000000;
+    font-weight: bold;
+}
+
+.return-policy-ul .col-2 figure {
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+.btn-section-ul .col-4 {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-section {
+    margin: 20px 0;
+}
+
+.return-page .global-width {
+    padding: 0;
+}
+
+.return-page .global-width .global-width {
+    padding: 0 20px;
+}

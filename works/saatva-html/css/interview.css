@@ -1,0 +1,59 @@
+/* sgcet */
+
+.interview-list li p {
+    font-size: 14px;
+    color: #747474;
+    margin: 0;
+    text-align: justify;
+}
+
+.int-width-row {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.interview-list .question label {
+    color: #f19f50;
+    font-weight: bold;
+}
+
+.interview-list .answer {
+    margin: 0 auto 20px;
+}
+
+.interview-list .answer label {
+    color: #2f8dc8;
+    font-weight: bold;
+}
+
+.interview-list .featured-row {
+    background: #2f8dc8;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0 0;
+    margin: 0 auto 20px; 
+    cursor: pointer;
+}
+
+.interview-list .featured-row h3 {
+    font: normal 14px/22px 'droid_serifregular';
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.interview-list .featured-row a {
+    font-size: 14px;
+    font-weight: normal;
+    color: #FFF;
+    text-transform: capitalize;
+}
+
+.interview-list .featured-row figure {
+
+}
+
+.interview-list .featured-row .text {
+    padding: 30px 0 0 40px;
+}

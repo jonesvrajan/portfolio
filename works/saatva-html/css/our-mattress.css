@@ -1,0 +1,189 @@
+/* sgcet */
+
+.our-mattress-page .texture-outer {
+    background: url(../img/texture-2-bg.png) repeat;
+    padding: 16px 0;
+    margin: 0 0 20px;
+}
+
+.our-mattress-page .page-content .content-inner {
+    background: #e0eef7;
+    padding: 30px 15px;
+	position: relative;
+}
+
+.message-area {
+    width: 100%;
+    height: 400px;
+    background: url(../img/message-bg.png) no-repeat top center;
+    background-size: contain;
+}
+
+.mattress-points {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-indicator {
+    position: relative;
+	float: none;
+}
+
+.mattress-points li {
+    width: 89px;
+    height: 88px;
+    position: absolute;
+}
+
+.mattress-points li .ring-img {
+	width: 89px;
+    height: 88px;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url(../img/blue-ring.png);
+}
+
+.mattress-points li#diff-1 {
+    left: 258px;
+    top: 206px;
+}
+.mattress-points li#diff-2 {
+    left: 405px;
+    top: 184px;
+}
+.mattress-points li#diff-3 {
+    left: 284px;
+    top: 114px;
+}
+.mattress-points li#diff-4 {
+    left: 150px;
+    top: 242px;
+}
+.mattress-points li#diff-5 {
+    left: 219px;
+    top: 62px;
+}
+
+.mattress-points li.active {
+    display: block;
+}
+
+.our-mattress-page .content-inner ul li {
+    padding: 0;
+}
+
+.content-inner .diff {
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0 0 20px;
+}
+
+.content-inner .diff h2 {
+    color: #2f8dc8;
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.content-inner .diff p {
+    color: #707070;
+    font-size: 14px;
+    padding: 0px 10px;
+    text-align: justify;
+}
+
+.content-inner .diff:hover,
+.content-inner .diff.active {
+    background-color: #FFF;
+    border: 1px solid #2f8dc8;
+}
+
+.content-inner .diff:hover h2,
+.content-inner .diff.active h2 {
+    background-color: #2f8dc8;
+    color: #FFF;
+}
+
+.img-indicator h2 {
+    color: #454545;
+    font-size: 18px;
+	text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.mattress-points {
+	display: none;
+}
+
+.img-indicator.mobile {
+	display: block;
+}
+
+.img-indicator.screen {
+	display: none;
+}
+
+.om-top-content .col-3 {
+    width: auto;
+}
+
+.choose-item {
+    text-align: right;
+    display: block;
+}
+
+.message-area h2 {
+    text-align: center;
+    padding: 40px 0 0;
+}
+
+.message-area p {
+    padding: 0 40px;
+}
+
+.we-offer p {
+    text-align: justify;
+}
+
+.we-offer p a {
+    color: #F19F50;
+    text-transform: uppercase;
+}
+
+.offer-details {
+    margin: 0 0 20px;
+}
+
+.link-to-green {
+    background: #2f8dc8;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    margin: 0 0 20px;
+    position: relative;
+}
+
+.link-to-green h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.our-mattress-page .page-content.global-width {
+    padding: 0;
+}
+
+.we-offer .col-3.screen {
+    display: none;
+}
+
+.content-inner .col-3 {
+	float: none;
+}

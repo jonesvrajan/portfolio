@@ -1,0 +1,21 @@
+$baseFont:'Open Sans', sans-serif;
+$navFont:'Oswald', sans-serif;
+$arial:'Arial', sans-serif;
+$baseFontColor:#000;
+$linkColor:#15548f;
+$base-font-size: 16px;
+
+/* Colors */
+$topPanelColor:#272b2f;
+$white : #fff;
+$mainNavBg : #272b2f;
+$borderColor:#ebebeb;
+
+$img : "../images/"; /* #{$img} */
+
+
+
+
+@function em($px, $base: $base-font-size) {
+    @return ($px / $base) * 1em;
+}

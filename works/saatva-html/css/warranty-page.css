@@ -1,0 +1,183 @@
+/* sgcet */
+/*Delivary Day page */
+
+.dd-page .page-content.global-width {
+    max-width: 621px;
+}
+
+.dd-list li {
+    font-size: 14px;
+    color: #acacac;
+    margin: 0 0 20px;
+    padding: 0 0 0 30px;
+}
+
+.dd-list li.one {
+    background: url(../img/icon-one.png) no-repeat left top;
+}
+
+.dd-list li.two {
+    background: url(../img/icon-two.png) no-repeat left top;
+}
+
+.dd-list li.three {
+    background: url(../img/icon-three.png) no-repeat left top;
+}
+
+
+.dd-list li figure {
+    float: right;
+    margin: 0 10px 0 0;
+}
+
+.dd-list li.four {
+    background: url(../img/icon-four.png) no-repeat left top;
+}
+
+.dd-list li.five {
+    background: url(../img/icon-five.png) no-repeat left top;
+}
+
+.dd-list li.six {
+    background: url(../img/icon-six.png) no-repeat left top;
+}
+
+.dd-list li.seven {
+    background: url(../img/icon-seven.png) no-repeat left top;
+}
+
+.dd-list li.eight {
+    background: url(../img/icon-eight.png) no-repeat left top;
+}
+
+.dd-page .page-content h2 {
+    color: #f19f50;
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
+
+.dd-page .page-content p {
+    font-size: 14px;
+    color: #acacac;
+    margin: 0 0 20px;
+}
+
+.dd-page .shop-now-3 {
+    width: 100%;
+    height: 57px;
+    display: block;
+    background: url(../img/btn-shop-now-3.png) center no-repeat;
+    margin: 0 0 30px;
+}
+
+.highlight-area {
+    text-align: center;
+    background: #707070;
+    padding: 40px 0;
+    color: #FFF;
+    margin: 0 0 40px;
+}
+
+.highlight-area h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 26px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.warranty-page .dd-img {
+    text-align: center;
+    margin: 0 0 40px;
+}
+
+.dd-list li p {
+    margin: 0;
+}
+
+.warranty-page h4 {
+    font-size: 19px;
+    color: #2f8dc8;
+    text-align: center;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+}
+
+.warranty-page p {
+    font-size: 14px;
+    color: #acacac;
+    text-align: justify;
+}
+
+.warranty-list-menu {
+    text-align: center;
+    margin: 0 0 60px;
+}
+
+.warranty-list-menu li {
+    display: inline-block;
+}
+
+.warranty-list-menu li a {
+    color: #2f8dc8;
+    font-size: 14px;
+    display: block;
+    padding: 0 20px;
+}
+
+
+.warranty-page .highlight-area p {
+    color: #FFF;
+}
+
+.warranty-page .dd-list {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.width-700 {
+    max-width: 700px;
+}
+
+.faq-list li h4 {
+    color: #2f8dc8;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.faq-list li p {
+    color: #959595;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.faq-list li {
+    padding: 10px 0;
+}
+
+.faq-page .faq-list {
+    max-width: 700px;
+    margin: 0 auto 20px;
+}
+
+.faq-page .head-group p {
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

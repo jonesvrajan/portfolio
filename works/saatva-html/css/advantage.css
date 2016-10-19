@@ -1,0 +1,67 @@
+/* sgcet */
+
+.our-advantage .page-content h3 {
+    margin: 0 0 5px;
+    color: #f19f50;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.our-advantage .page-content h4 {
+    margin: 0 0 40px;
+    color: #707070;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'droid_serifregular';
+}
+
+.our-advantage .head-group .contain-ml {
+    color: #f19f50;
+}
+
+.bar-chart {
+    display: block;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.our-advantage .page-content .contain-ml {
+    color: #2f8dc8;
+}
+
+.adv-list {
+    margin: 30px 0;
+}
+
+.adv-list .icon-one {
+    background: url(../img/adv-icon-one.png) no-repeat top center;
+}
+
+.adv-list .icon-two {
+    background: url(../img/adv-icon-two.png) no-repeat top center;
+}
+
+.our-advantage .page-content .adv-list li h4 {
+    color: #f19f50;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'gotham_htfbook';
+}
+
+.adv-list li {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 85px 10px 0;
+}
+
+.our-advantage .page-content .adv-list li p {
+    color: #707070;
+    font-size: 14px;
+    text-align: justify;
+}

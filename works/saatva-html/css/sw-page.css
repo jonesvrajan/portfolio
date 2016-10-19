@@ -1,0 +1,73 @@
+/* sgcet */
+
+.sw-page .page-banner {
+    background: #2f8dc8;
+    text-align: center;
+    color: #FFF;
+    padding: 20px 0 0;
+}
+
+.sw-page .page-banner h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.shop-now-3 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.sw-page .col-4 {
+    padding: 0;
+}
+
+.sleep-benefits h2 {
+    text-align: center;
+}
+
+.sw-page .global-width {
+    padding: 0;
+}
+
+.testimonials blockquote {
+    font-size: 16px;
+    color: #707070;
+    text-align: center;
+    border-top: 1px solid #8f8e8d;
+    border-bottom: 1px solid #8f8e8d; 
+    padding: 20px 0;
+}
+
+.testimonials blockquote sup {
+    font-size: 28px;
+    color: #2f8dc8;
+    top: 0;
+}
+
+.testimonials blockquote p {
+    text-align: right;
+    color: #acacac;
+    font-size: 12px;
+    margin: 0;
+    line-height: 14px;
+}
+
+.sw-page .page-banner-section {
+    margin: 0 auto;
+}
+
+.sw-page .sml-scrn.head-group p {
+    margin: 0;
+}
+
+.spinal-zone figure {
+    padding: 20px 0 0;
+}
+
+.health-bridge figure {
+    padding: 14px 0 0;
+}

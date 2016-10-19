@@ -1,0 +1,64 @@
+/* sgcet */
+
+@media only screen and (min-width: 768px) {
+
+.am-content-list li .image-sec {
+        width: 25%;
+        position: absolute;
+        margin: 0;
+    }
+
+    .am-content-list li.local-distribution {
+        padding-bottom: 100px;
+    }
+
+    .am-content-list li.handcraft .background-1 {
+        background: url("../img/handcraft-bottom.png") left 0 no-repeat;
+    }
+
+    .am-content-list li .cont-sec {
+        margin: 0 0 0 10px !important;
+        width: 60%;
+        padding: 0;
+        max-width: 587px; 
+    }
+
+    .am-content-list li.local-material .background-1 {
+        bottom: -14px;
+        background: url("../img/local-material-bottom.png") no-repeat 593px 0;
+    }
+
+    .am-content-list li.local-material {
+        padding-bottom: 30px;
+    }
+
+    .am-content-list li.local-material .image-sec {
+        width: 31%;
+    }
+
+    .am-content-list li.li-even .cont-sec {
+        margin-right: 4% !important;
+    }
+
+    .am-content-list li.li-odd .cont-sec {
+        margin-left: 4% !important;
+    }
+
+    .footer-menu-list {
+        width: auto;
+    }
+
+    .img-wrap-1 {
+        top: 0;
+    }
+
+    .am-content-list li.money-pocket .image-sec {
+        margin-top: -40px;
+    }
+
+}
+
+@media only screen and (min-width: 980px) {
+
+
+}
