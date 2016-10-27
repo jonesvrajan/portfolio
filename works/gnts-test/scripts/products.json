@@ -1,0 +1,316 @@
+{
+  "allProducts": [
+   {
+      "productName": "Inventory",
+      "productPlans" : [
+         {
+            "planName" : "free",
+            "planFeatures": [
+               {
+                  "feature": "Manage Products",
+                  "available": true
+               },
+               {
+                  "feature": "Purchase",
+                  "available": true
+               },
+               {
+                  "feature": "Inventory",
+                  "available": true
+               },
+               {
+                  "feature": "Billing",
+                  "available": false
+               },
+               {
+                  "feature": "Payments",
+                  "available": false
+               }
+            ],
+            "planSettings" : 
+               {
+                  "products": 10,
+                  "invoices": 50,
+                  "bandwidth": "5GB",
+                  "support" : ["email"]
+               }
+            
+         },
+         {
+            "planName" : "basic",
+            "planFeatures": [
+               {
+                  "feature": "Manage Products",
+                  "available": true
+               },
+               {
+                  "feature": "Purchase",
+                  "available": true
+               },
+               {
+                  "feature": "Inventory",
+                  "available": true
+               },
+               {
+                  "feature": "Billing",
+                  "available": true
+               },
+               {
+                  "feature": "Payments",
+                  "available": false
+               }
+            ],
+            "planSettings" : 
+               {
+                  "products": 50,
+                  "invoices": 250,
+                  "bandwidth": "50GB",
+                  "support" : ["email", "phone"]
+               }
+            
+         },
+         {
+            "planName" : "premium",
+            "planFeatures": [
+               {
+                  "feature": "Manage Products",
+                  "available": true
+               },
+               {
+                  "feature": "Purchase",
+                  "available": true
+               },
+               {
+                  "feature": "Inventory",
+                  "available": true
+               },
+               {
+                  "feature": "Billing",
+                  "available": true
+               },
+               {
+                  "feature": "Payments",
+                  "available": true
+               }
+            ],
+            "planSettings" : 
+               {
+                  "products": 100,
+                  "invoices": 500,
+                  "bandwidth": "5GB",
+                  "support" : ["email","phone","chat"]
+               }
+            
+         }
+      ]
+   },
+   {
+      "productName": "Accounting",
+      "productPlans" : [
+         {
+            "planName" : "free",
+            "planFeatures": [
+               {
+                  "feature": "Manage Products",
+                  "available": true
+               },
+               {
+                  "feature": "Purchase",
+                  "available": true
+               },
+               {
+                  "feature": "Inventory",
+                  "available": true
+               },
+               {
+                  "feature": "Billing",
+                  "available": false
+               },
+               {
+                  "feature": "Payments",
+                  "available": false
+               }
+            ],
+            "planSettings" : 
+               {
+                  "products": 10,
+                  "invoices": 50,
+                  "bandwidth": "5GB",
+                  "support" : ["email"]
+               }
+            
+         },
+         {
+            "planName" : "basic",
+            "planFeatures": [
+               {
+                  "feature": "Manage Products",
+                  "available": true
+               },
+               {
+                  "feature": "Purchase",
+                  "available": true
+               },
+               {
+                  "feature": "Inventory",
+                  "available": true
+               },
+               {
+                  "feature": "Billing",
+                  "available": true
+               },
+               {
+                  "feature": "Payments",
+                  "available": false
+               }
+            ],
+            "planSettings" : 
+               {
+                  "products": 50,
+                  "invoices": 250,
+                  "bandwidth": "5GB",
+                  "support" : ["email", "phone"]
+               }
+            
+         },
+         {
+            "planName" : "premium",
+            "planFeatures": [
+               {
+                  "feature": "Manage Products",
+                  "available": true
+               },
+               {
+                  "feature": "Purchase",
+                  "available": true
+               },
+               {
+                  "feature": "Inventory",
+                  "available": true
+               },
+               {
+                  "feature": "Billing",
+                  "available": true
+               },
+               {
+                  "feature": "Payments",
+                  "available": true
+               }
+            ],
+            "planSettings" : 
+               {
+                  "products": 100,
+                  "invoices": 500,
+                  "bandwidth": "5GB",
+                  "support" : ["email","phone","chat"]
+               }
+            
+         }
+      ]
+   },
+   {
+      "productName": "Payroll",
+      "productPlans" : [
+         {
+            "planName" : "free",
+            "planFeatures": [
+               {
+                  "feature": "Manage Products",
+                  "available": true
+               },
+               {
+                  "feature": "Purchase",
+                  "available": true
+               },
+               {
+                  "feature": "Inventory",
+                  "available": true
+               },
+               {
+                  "feature": "Billing",
+                  "available": false
+               },
+               {
+                  "feature": "Payments",
+                  "available": false
+               }
+            ],
+            "planSettings" : 
+               {
+                  "products": 10,
+                  "invoices": 50,
+                  "bandwidth": "5GB",
+                  "support" : ["email"]
+               }
+            
+         },
+         {
+            "planName" : "basic",
+            "planFeatures": [
+               {
+                  "feature": "Manage Products",
+                  "available": true
+               },
+               {
+                  "feature": "Purchase",
+                  "available": true
+               },
+               {
+                  "feature": "Inventory",
+                  "available": true
+               },
+               {
+                  "feature": "Billing",
+                  "available": true
+               },
+               {
+                  "feature": "Payments",
+                  "available": false
+               }
+            ],
+            "planSettings" : 
+               {
+                  "products": 50,
+                  "invoices": 250,
+                  "bandwidth": "5GB",
+                  "support" : ["email", "phone"]
+               }
+            
+         },
+         {
+            "planName" : "premium",
+            "planFeatures": [
+               {
+                  "feature": "Manage Products",
+                  "available": true
+               },
+               {
+                  "feature": "Purchase",
+                  "available": true
+               },
+               {
+                  "feature": "Inventory",
+                  "available": true
+               },
+               {
+                  "feature": "Billing",
+                  "available": true
+               },
+               {
+                  "feature": "Payments",
+                  "available": true
+               }
+            ],
+            "planSettings" : 
+               {
+                  "products": 100,
+                  "invoices": 500,
+                  "bandwidth": "5GB",
+                  "support" : ["email","phone","chat"]
+               }
+            
+         }
+      ]
+   }
+  ]
+}

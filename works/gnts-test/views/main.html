@@ -1,0 +1,45 @@
+<ul ng-controller="productListController as productList" class="row product-list ul-reset clearfix">
+  <li ng-repeat="product in productList.productlist" class="col-sm-4">
+  	<h2 data-index="{{$index}}">{{product.productName}}</h2>
+  	<ul class="ul-reset">
+  		<li ng-repeat="plan in product.productPlans">
+  			<h3>{{plan.planName}}</h3>
+  			<ul class="features ul-reset">
+  				<li ng-repeat="feature in plan.planFeatures">
+            <a href ng-click="feature.available = !feature.available" ng-class="{'active' : feature.available}">{{feature.feature}} 
+              <span class="glyphicon glyphicon-ok"></span>
+              <span class="glyphicon glyphicon-remove"></span>
+            </a>
+          </li>
+  			</ul>
+  			<ul class="ul-reset settings">
+  				<li>
+  					<a href data-toggle="modal" data-target="#{{product.productName}}planSettings{{$index}}" class="settings {{product.productName}}">Settings </a>
+  					<div 
+  					class="modal fade" 
+  					id="{{product.productName}}planSettings{{$index}}" 
+  					tabindex="-1" 
+  					role="dialog" 
+  					aria-labelledby="executionOptionLabel"
+  					aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <h2>{{product.productName}} {{plan.planName}} plan settings </h2>
+                  <div ng-show="showmsg" class="alert alert-success" role="alert">Your settings saved!</div>
+                  <div class="settings-content" ng-repeat="(key, value) in plan.planSettings">
+                    <h4>{{key}}:</h4> 
+                    <div ng-if="key==='products'"><input type="text" value="{{value}}"/></div>
+                    <div ng-if="key==='invoices'"><input type="text" value="{{value}}"/></div>
+                    <div ng-if="key==='bandwidth'"><input type="text" value="{{value}}"/></div>
+                    <div ng-if="key==='support'"><input type="text" value="{{value.join()}}"/></div>
+                  </div>
+                  <a href class="settings {{product.productName}}" ng-click="showmsg=true">Save</a>
+  							</div>
+						  </div>
+					 </div>
+  				</li>
+  			</ul>			
+  		</li>
+  	</ul>
+  </li>
+</ul>

@@ -1,0 +1,248 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+a {
+  transition: background-color 0.5s ease;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 2px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 960px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.ul-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.product-list {
+  background: url(../images/bg-table.jpg) no-repeat;
+  background-size: cover;
+  > li {
+    color: #FFF;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0;
+    padding-bottom: 30px;
+    h2 {
+      margin: 0;
+      padding: 25px 25px;
+      background: rgba(0, 0, 0, 0.45);
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+    &:first-child {
+      background: rgba(0, 92, 90, 0.75);
+      border-left: 5px solid rgba(0, 92, 90, 1);
+      .modal-content {
+        background: rgba(0, 92, 90, 0.75);
+      }
+    }
+    &:nth-child(2) {
+      background: rgba(25, 156, 123, 0.75);
+      border-left: 5px solid rgba(25, 156, 123, 1);
+      .modal-content {
+        background: rgba(25, 156, 123, 0.75);
+      }
+    }
+    &:last-child {
+      background: rgba(243, 113, 0, 0.75);
+      border-left: 5px solid rgba(243, 113, 0, 0.75);
+      .modal-content {
+        background: rgba(243, 113, 0, 0.75);
+      }
+    }
+  }
+
+  h3 {
+    font-size: 17px;
+    border-bottom: 1px solid #FFF;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: #FFF;
+    display: inline-block;
+  }
+
+  a.settings {
+    color: #FFF;
+    border: 1px solid #FFF;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 25px 0 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    &.Inventory {
+      &:hover {
+        background: rgba(0, 92, 90, 0.75);
+      }
+    }
+    &.Accounting {
+      &:hover {
+        background: rgba(25, 156, 123, 0.75);
+      }
+    }
+    &.Payroll {
+      &:hover {
+        background: rgba(243, 113, 0, 0.75);
+      }
+    }
+  }
+}
+
+.modal-dialog {
+  background: url(../images/bg-table.jpg) no-repeat;
+  background-size: cover;
+}
+
+.modal-content {
+  border-radius: 0;
+  background: rgba(0, 92, 90, 0.75);
+  color: #FFF;
+  padding-bottom: 30px;
+  h2 {
+    margin-bottom: 30px !important;
+  }
+  h4 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .alert {
+    border-radius: 0;
+    text-transform: uppercase;
+    margin: 0 30px 30px;
+  }
+  .settings-content {
+    input {
+      background: none;
+      border: 0;
+      display: inline-block;
+      text-transform: capitalize;
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+.features {
+  .glyphicon-ok {
+    display: none;
+  }
+  .glyphicon-remove {
+      display: inline-block;
+  }
+
+  a {
+    color: #CCC;
+    font-size: 14px;
+    display: block;
+    padding: 5px 0;
+    &.active {
+      color: #FFF;
+      text-decoration: none;
+      .glyphicon-remove {
+        display: none;
+      }
+      .glyphicon-ok {
+        display: inline-block;
+      }
+      &:hover {
+        color: #FFF;
+      }
+    }
+    &:hover {
+      text-decoration: underline;
+      color: #CCC;
+    }
+  } 
+}
