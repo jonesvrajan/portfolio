@@ -6,7 +6,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Jones Rajan's Portfolio</title>
+  <title>Jones Vadakkadathu Rajan's Portfolio</title>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   <!-- CSS -->
   <!-- Bootstrap core CSS -->
@@ -29,7 +29,7 @@
 
     <div class="intro">
       <div class="hello">Hi, Iam a Front-End Developer</div>
-      <h1>Jones Rajan</h1>
+      <h1>Jones Vadakkadathu Rajan</h1>
       <div class="who-creates">I love to create beautifully coded interfaces for Web and Mobile</div>
     </div>
 
@@ -56,7 +56,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Jones Rajan</a>
+          <a class="navbar-brand" href="index.html">Jones V Rajan</a>
         </div>
 
         <div class="collapse navbar-collapse" id="custom-collapse">
@@ -495,16 +495,14 @@
         <div class="col-sm-12">
 
           <ul class="social-links">
-            <li><a href="https://www.facebook.com/jonesvrajan" target="_blank" class="wow fadeInUp"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com/jonesvrajan" target="_blank" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://plus.google.com/u/0/110025962607829690471" target="_blank" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li>
+            
             <li><a href="https://in.linkedin.com/in/jonesrajan" target="_blank" class="wow fadeInUp" data-wow-delay=".3s"><i class="fa fa-linkedin"></i></a></li>
             <li><a href="https://github.com/jonesvrajan" target="_blank" class="wow fadeInUp" data-wow-delay=".3s"><i class="fa fa-github"></i></a></li>
             <li><a href="mailto:jonesvrajan@gmail.com" target="_blank" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
           </ul>
 
           <p class="copyright">
-            © 2016 Jones Rajan, All Rights Reserved. 
+            © 2022 Jones Vadakkadathu Rajan, All Rights Reserved. 
           </p>
 
         </div>
